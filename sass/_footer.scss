@@ -1,0 +1,176 @@
+// Sticky Footer - start
+	html {
+		margin-top: 0 !important;
+	}
+
+	body {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+	main {
+		flex: 1;
+	}
+// Sticky Footer - end
+
+// footer - start
+	footer {
+		background: white;
+		padding: 10px 0;
+		.container {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row;
+			flex-direction: row;
+			// flex: 1 0 auto;
+			.copyright {
+				margin-top: auto;
+				margin-bottom: auto;
+				margin-right: auto;
+			}
+		}
+	}
+// footer - end
+
+
+	.produced-in-association {
+		margin-left: auto;
+		// Documentary logo - start
+		.documentary {
+			display:inline-block;
+			margin-right: 25px;
+			text-align: center;
+			.doc-logo {
+				width: auto;
+				height: 40px;
+				display: block;
+				margin:0 auto;
+				&:hover {
+					fill: lighten(black, 50%);
+				}
+			}
+		}
+		// Documentary logo - end
+
+		// Canada Media Fund logo - start
+		.canada-media-fund {
+			display:inline-block;
+			margin: auto;
+			text-align: center;
+			.cmf-logo {
+				width: auto;
+				height: 35px;
+				display: block;
+				margin:0 auto;
+				&:hover {
+					fill: lighten(black, 50%);
+				}
+				.square-1 {
+					fill: #6C6C6D;
+				}
+				.square-2 {
+					fill: #535353;
+				}
+				.square-3 {
+					fill: #7B7C7C;
+				}
+				.square-4 {
+					fill: #929191;
+				}
+				.square-5 {
+					fill: #747575;
+				}
+				.square-6 {
+					fill: #A1A1A0;
+				}
+				.square-7 {
+					fill: #C3C3C3;
+				}
+				.square-8 {
+					fill: #959595;
+				}
+				.square-9 {
+					fill: #888787;
+				}
+				.square-10 {
+					fill: #9E9F9F;
+				}
+				.square-11 {
+					fill: #D8D8D7;
+				}
+				.square-12 {
+					fill: #AEAEAE;
+				}
+				.square-13 {
+					fill: #868787;
+				}
+				.square-14 {
+					fill: #BCBCBC;
+				}
+				.square-15 {
+					fill: #969696;
+				}
+				.square-16 {
+					fill: #D1D2D2;
+				}
+				.square-17 {
+					fill: #B8B8B9;
+				}
+				.square-18 {
+					fill: #E5E5E5;
+				}
+				.square-19 {
+					fill: #CDCDCD;
+				}
+				.square-20 {
+					fill: #F1F1F1;
+				}
+				.square-21 {
+					fill: #E7E6E6;
+				}
+			}
+		}
+		// Canada Media Fund logo - end
+	}
+
+
+@media all and (max-width: 480px) {
+	footer {
+		padding: 15px 0;
+		.container {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: column;
+			flex-direction: column;
+			// flex: 1 0 auto;
+			.copyright {
+				margin: auto;
+			}
+		}
+	}
+
+	.produced-in-association {
+		margin: auto;
+		// Documentary logo - start
+		.documentary {
+			display:block;
+			margin: auto;
+			margin-top: 10px;
+			.doc-logo {
+				height: 35px;
+			}
+		}
+		// Documentary logo - end
+
+		// Canada Media Fund logo - start
+		.canada-media-fund {
+			display: block;
+			margin-top: 10px;
+			.cmf-logo {
+				height: 30px;
+			}
+		}
+		// Canada Media Fund logo - end
+	}
+}

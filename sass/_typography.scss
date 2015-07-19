@@ -1,0 +1,148 @@
+// Main Typography for entire document - start
+	html {
+		font-size: 62.5%;
+	}
+
+	body {
+		color: $grey;
+	}
+
+	h1,h2,h3,h4,h5,h6,p {
+		margin: 0;
+		padding: 0;
+	}
+
+	section.intro {
+		h1 {
+			font-family: $oswald;
+			font-size: 80px;
+			font-size: 8rem;
+			width: 50%;
+			text-transform: uppercase;
+			line-height: 96px;
+			line-height: 9.6rem;
+		}
+
+	}
+
+	section.details {		
+		p {
+			color: white;
+			font-size: 38px;
+			font-size: 3.8rem;
+			font-family: $oswald;
+			text-transform: uppercase;
+			line-height: 45px;
+			line-height: 4.5rem;
+		}
+	}
+	
+	section.header {
+		.container {
+			position: relative;
+			h1 {
+				position: absolute;
+				bottom: 0;
+				right: 3%;
+				font-family: $oswald;
+				font-size: 50px;
+				font-size: 5rem;
+				text-transform: uppercase;
+				line-height: 1
+			}
+		}
+	}
+
+	a {
+		color: $link;
+		transition: all 0.3s;
+		text-decoration: none;
+		&:visited {
+			text-decoration: none;
+		}
+		&:hover {
+			color: $hover;
+			
+		}
+	}
+	
+	button {
+		font-family: $oswald;
+		transition: all 0.3s;
+		width: 100%;
+		font-size: 38px;
+		font-size: 3.8rem;
+		background: $link;
+		color: white;
+		padding: 10px;
+		border-radius: 10px;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin-top: 2.5%;
+		outline: none;
+		border: 1px solid $link;
+		fill: $hover;
+		.doc-logo {
+			width: 74px;
+			vertical-align: middle;
+		}
+		&:hover {
+			background: $hover;
+			border: 1px solid $hover;
+			color: $link;
+			fill: $link;
+		}
+	}
+
+
+	@media all and (max-width: 480px) {
+		html {
+			font-size: 50%;
+		}
+
+		section.intro {
+			h1 {
+				font-size: 50px;
+				font-size: 5rem;
+				line-height: 46px;
+				line-height: 4.6rem;
+				width: 100%;
+			}
+
+			.arrow-down {
+				width: 50px;
+			}
+		}
+
+		button {
+			.doc-logo {
+				width: 55px;
+			}
+		}
+	}
+
+	@media all and (max-height: 414px) {
+		html {
+			font-size: 50%;
+		}
+
+		section.intro {
+			h1 {
+				font-size: 50px;
+				font-size: 5rem;
+				line-height: 46px;
+				line-height: 4.6rem;
+				width: 100%;
+			}
+
+			.arrow-down {
+				width: 50px;
+			}
+		}
+
+		button {
+			.doc-logo {
+				width: 55px;
+			}
+		}
+	}

@@ -1,0 +1,34 @@
+// Website Opening - start
+	section.intro {
+		height: 100vh;
+		background: #EEDEC2;
+		.vertical-align {
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+
+	section.details {
+		background-image: url('./img/background/textured-background.png');
+		background-repeat: repeat;
+		padding: 50px 0;
+	}
+
+	
+	.arrow-down {
+		max-width: 75px;
+		height: auto;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+		padding-bottom: 20px;
+		fill: #2A3737;
+		&:hover {
+			fill: white;
+		}
+	}
+		 
+// Website Opening - end
