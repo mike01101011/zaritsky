@@ -1,4 +1,31 @@
 // Website Opening - start
 
+	.social-media-outlets {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		padding-top: 2.75%;
+	}
+	.social-media {
+		flex: 1 0 auto;
+	}
+
+	@media all and (max-width: 768px) {
+		.social-media-outlets {
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-direction: column;
+				flex-direction: column;
+		}
+
+		.social-media {
+			flex: 1 0 auto;
+			padding-top: 5%;
+			&:first-child {
+				padding-top: 2.75%;
+			}
+		}
+	}
 		 
 // Website Opening - end

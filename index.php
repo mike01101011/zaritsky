@@ -3,7 +3,7 @@
 <?php include("navigation.php"); ?>
 
 <main>
-	<section class="intro">
+	<div class="hero">
 		<div class="container vertical-align">
 			<h1>Who in the World is<br>John Zaritsky?</h1>
 		</div> <!-- /.container -->
@@ -14,9 +14,9 @@
 				</svg>
 			</a>
 		</div>
-	</section>
+	</div>
 
-	<section class="details overlay" id="below">
+	<section class="project-details overlay" id="below">
 		<div class="container">
 			<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of The Zaritsky Project.</p>
 			<br>
