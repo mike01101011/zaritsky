@@ -57,12 +57,10 @@ section {
 	&:nth-child(even){
 		background-image: url('/img/background/textured-background.png');
 		background-repeat: repeat;
-		background: -webkit-image-set( url('/img/background/textured-background.png') 1x, url('/img/background/textured-background_@2x.png') 2x );
 	}
 	&:nth-child(odd) {
 		background-image: url('/img/background/textured-background-green.png');
 		background-repeat: repeat;
-		background: -webkit-image-set( url('/img/background/textured-background-green.png') 1x, url('/img/background/textured-background-green_@2x.png') 2x );
 	}
 }
 
