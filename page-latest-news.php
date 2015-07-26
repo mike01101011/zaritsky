@@ -20,14 +20,20 @@
 		);
 	?>
 
+
 	<?php if ( $onePageQuery->have_posts() ) : ?>
-		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
+		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post();
+			$newsimage = get_field('news_image');
+		?>
 			<section class="news">
 				<div class="container">
 					<div class="news-story">
+						<div class="news-photo">
+							<img src="<?php echo $newsimage['url']; ?>" alt="">
+						</div>
 						<div class="news-brief">
 							<p><?php the_field( 'news_excerpt' ); ?></p>
-							<a href="" class="read-more-button">Read More</a>
+							<a href="<?php the_field( 'news_link' ); ?>" class="read-more-button">Read More</a>
 						</div>
 					</div>
 				</div>
