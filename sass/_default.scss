@@ -49,17 +49,18 @@
 	padding-top: 45px;
 	img {
 		width: 100%;
+		display: block;
 	}
 }
 
 section {
 	padding: 2.5% 0;
 	&:nth-child(even){
-		background-image: url('/img/background/textured-background.png');
+		background-image: url('./img/background/textured-background.png');
 		background-repeat: repeat;
 	}
 	&:nth-child(odd) {
-		background-image: url('/img/background/textured-background-green.png');
+		background-image: url('./img/background/textured-background-green.png');
 		background-repeat: repeat;
 	}
 }

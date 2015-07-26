@@ -82,15 +82,18 @@
 		font-size: 10rem;
 	}
 	
-	button {
+	.coming-soon-button {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
 		font-family: $oswald;
 		transition: all 0.3s;
-		width: 100%;
+		width: 80%;
 		font-size: 38px;
 		font-size: 3.8rem;
 		background: $link;
 		color: white;
-		padding: 10px;
+		padding: 2.5%;
 		border-radius: 10px;
 		text-transform: uppercase;
 		font-weight: 700;

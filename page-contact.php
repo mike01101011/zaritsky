@@ -10,6 +10,15 @@
 		</div> <!-- /.container -->
 	</div>
 
+	<?php
+		$onePageQuery = new WP_Query(
+			array(
+				'posts_per_page' => -1,
+				'post_type' => 'social',
+				'order' => 'DSC'
+			)
+		);
+	?>
 	<section class="contact">
 		<div class="container">
 			<?php if (have_posts()) : ?>
@@ -17,23 +26,12 @@
 					<p><?php the_content(); ?></p>
 				<?php endwhile; ?>
 			<?php endif; ?>
-
-			<?php
-				$onePageQuery = new WP_Query(
-					array(
-						'posts_per_page' => -1,
-						'post_type' => 'social',
-						'order' => 'DSC'
-					)
-				);
-			?>
-			
 			<div class="social-media-outlets">
 				<?php if ( $onePageQuery->have_posts() ) : ?>
 					<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
-							<div class="social-media">
-								<a href="<?php the_field( 'social_media_link' ); ?>" target="_blank" class="social-media-icon"><?php the_field( 'social_media' ); ?></a>
-							</div>
+						<div class="social-media">
+							<a href="<?php the_field( 'social_media_link' ); ?>" target="_blank" class="social-media-icon"><?php the_field( 'social_media' ); ?></a>
+						</div>
 					<?php endwhile; ?>
 					<?php wp_reset_postdata(); ?>
 					<?php else: ?>
