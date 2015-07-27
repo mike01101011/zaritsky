@@ -33,7 +33,7 @@
 						</div>
 						<div class="news-brief">
 							<p><?php the_field( 'news_excerpt' ); ?></p>
-							<a href="<?php the_field( 'news_link' ); ?>" class="read-more-button">Read More</a>
+							<a href="<?php the_field( 'news_link' ); ?>" class="read-more-button" target=_blank>Read More</a>
 						</div>
 					</div>
 				</div>

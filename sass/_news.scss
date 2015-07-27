@@ -1,4 +1,50 @@
-// Website Opening - start
+.news-story {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.news-photo {
+	margin-right: 2.5%;
+	img {
+		display: block;
+	}
+}
+
+.read-more-button {
+		margin-top: 10px;
+	}
+
+@media all and (max-width: 768px) {
+	.news-story {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.news-photo, .news-brief {
+		flex: 1 0 auto;
+	}
+
+	.news-photo {
+		margin: 0 auto;
+	}
+
+	.news-brief {
+		margin-top: 10px;
+
+	}
+
+	.read-more-button {
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+}
+
+
+// Read More Button
 .read-more-button {
 	display: block;
 	width: 150px;
