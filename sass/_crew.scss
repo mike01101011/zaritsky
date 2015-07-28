@@ -1,0 +1,50 @@
+.crew-member {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+
+.crew-photo {
+	margin-right: 2.5%;
+	img {
+		margin: 0 auto;
+		max-width: 100%;
+		display: block;
+		border-radius: 50%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.crew-member {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.crew-photo, .crew-info {
+		flex: 1 0 auto;
+	}
+
+	.crew-photo {
+		margin: 0 auto;
+	}
+
+	.crew-info {
+		margin-top: 10px;
+		h2 {
+			text-align: center;
+		}
+	}
+}
+
+@media all and (max-width: 480px) {
+	.crew-photo {
+		img {
+			max-width: 80%;
+		}
+	}
+}
+		 
+// Website Opening - end
