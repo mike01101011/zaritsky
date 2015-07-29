@@ -1,25 +1,25 @@
 // Website Opening - start
 
-	.social-media-outlets {
+	.filmography {
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-direction: row;
 		flex-direction: row;
-		padding-top: 10px;
+		padding-top: 20px;
 	}
-	.social-media {
+	.film {
 		flex: 1 0 auto;
 	}
 
 	@media all and (max-width: 768px) {
-		.social-media-outlets {
+		.filmography {
 				display: -webkit-flex;
 				display: flex;
 				-webkit-flex-direction: column;
 				flex-direction: column;
 		}
 
-		.social-media {
+		.film {
 			flex: 1 0 auto;
 			padding-top: 20px;
 			&:first-child {

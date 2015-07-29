@@ -14,31 +14,42 @@
 		$onePageQuery = new WP_Query(
 			array(
 				'posts_per_page' => -1,
-				'post_type' => 'social',
+				'post_type' => 'film',
 				'order' => 'DSC'
 			)
 		);
 	?>
-	<section class="contact">
+	<section class="filmography">
 		<div class="container">
 			<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
 					<?php the_content(); ?>
 				<?php endwhile; ?>
 			<?php endif; ?>
-			<div class="social-media-outlets">
-				<?php if ( $onePageQuery->have_posts() ) : ?>
-					<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
-						<div class="social-media">
-							<a href="<?php the_field( 'social_media_link' ); ?>" target="_blank" class="social-media-icon"><?php the_field( 'social_media' ); ?></a>
-						</div>
-					<?php endwhile; ?>
-					<?php wp_reset_postdata(); ?>
-					<?php else: ?>
-				<?php endif; ?>
-			</div>
 		</div>
 	</section>
+
+	<?php if ( $onePageQuery->have_posts() ) : ?>
+		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
+			<section class="filmography">
+				<div class="container">
+					<div class="title">
+						<h2><?php the_field( 'film_title' ); ?></h2>
+					</div>
+					<div class="film">
+						<div class="video">
+							<?php the_field( 'video' ); ?>
+						</div>
+						<div class="film-info">
+							<p><?php the_field( 'film_info' ); ?></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
+		<?php else: ?>
+	<?php endif; ?>
 </main> <!-- /.main -->
 
 <?php get_footer(); ?>
