@@ -1,31 +1,77 @@
 // Website Opening - start
 
+	.filmography-quote {
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	@media all and (max-width: 1024px) {
+		.filmography-quote {
+			text-align: left;
+		}
+	}
+
 	.filmography {
+		padding-top: 20px;
+		&:nth-child(even) {
+			background-image: url('./img/background/textured-background-green.png');
+			background-repeat: repeat;
+			color: white;
+		}
+		&:nth-child(odd) {
+			background-image: url('./img/background/textured-background.png');
+			background-repeat: repeat;
+			color: $grey;
+		}
+	}
+
+	.film {
 		display: -webkit-flex;
 		display: flex;
 		-webkit-flex-direction: row;
 		flex-direction: row;
-		padding-top: 20px;
 	}
-	.film {
-		flex: 1 0 auto;
+
+	.video {
+		position: relative;
+		padding-bottom: 25%;
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		flex: 1 0 50%;
+		margin-top: 7px;
+	}
+
+	.video iframe,
+	.video object,
+	.video embed { 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.film-info {
+		padding-left: 2.5%;
 	}
 
 	@media all and (max-width: 768px) {
-		.filmography {
-				display: -webkit-flex;
-				display: flex;
-				-webkit-flex-direction: column;
-				flex-direction: column;
+		.film {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: column;
+			flex-direction: column;
 		}
 
-		.film {
-			flex: 1 0 auto;
-			padding-top: 20px;
-			&:first-child {
-				padding-top: 10px;
-			}
+		.film-info {
+			padding-left: 0;
+		}
+
+		.video {
+			margin: 2% 0;
+			padding-bottom: 56.25%;
 		}
 	}
-		 
+
 // Website Opening - end

@@ -37,20 +37,18 @@
 	}
 	
 	.banner {
-		.container {
-			position: relative;
-			h1 {
-				position: absolute;
-				bottom: 0;
-				right: 3%;
-				font-family: $oswald;
-				font-size: 50px;
-				font-size: 5.0rem;
-				text-transform: uppercase;
-				line-height: 1;
-				text-align: right;
-			}
-		}
+		position: relative;
+		h1 {
+			position: absolute;
+			bottom: 0;
+			right: 3%;
+			font-family: $oswald;
+			font-size: 50px;
+			font-size: 5.0rem;
+			text-transform: uppercase;
+			line-height: 1;
+			text-align: right;
+		}	
 	}
 
 	section {

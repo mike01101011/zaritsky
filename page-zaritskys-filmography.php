@@ -19,7 +19,7 @@
 			)
 		);
 	?>
-	<section class="filmography">
+	<section class="filmography-quote">
 		<div class="container">
 			<?php if (have_posts()) : ?>
 				<?php while (have_posts()) : the_post(); ?>
