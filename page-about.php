@@ -13,35 +13,18 @@
 	<?php $onePageQuery = new WP_Query(
 			array(
 				'posts_per_page' => -1,
-				'post_type' => 'film',
+				'post_type' => 'trailer',
 				'order' => 'DSC'
 			)
 		);
 	?>
-	<section class="filmography-quote">
-		<div class="container">
-			<?php if (have_posts()) : ?>
-				<?php while (have_posts()) : the_post(); ?>
-					<?php the_content(); ?>
-				<?php endwhile; ?>
-			<?php endif; ?>
-		</div>
-	</section>
 
-	<?php if ( $onePageQuery->have_posts() ) : ?>
+	<?php if (have_posts()) : ?>
 		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
-			<section class="filmography">
+			<section class="trailer">
 				<div class="container">
-					<div class="title">
-						<h2><?php the_field( 'film_title' ); ?></h2>
-					</div>
-					<div class="film">
-						<div class="video">
-							<?php the_field( 'video' ); ?>
-						</div>
-						<div class="film-info">
-							<p><?php the_field( 'film_info' ); ?></p>
-						</div>
+					<div class="trailer-video">
+						<?php the_field( 'trailer' ); ?>	
 					</div>
 				</div>
 			</section>
@@ -49,6 +32,20 @@
 		<?php wp_reset_postdata(); ?>
 		<?php else: ?>
 	<?php endif; ?>
+
+
+
+	<?php if (have_posts()) : ?>
+		<?php while (have_posts()) : the_post(); ?>
+			<section class="about">
+				<div class="container">
+					<h2>The Film</h2>
+					<?php the_content(); ?>
+				</div>
+			</section>
+		<?php endwhile; ?>
+	<?php endif; ?>
+			
 </main> <!-- /.main -->
 
 <?php get_footer(); ?>
