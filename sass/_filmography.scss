@@ -52,8 +52,18 @@
 		height: 100%;
 	}
 
+	.zaritsky-on-work {
+		padding-bottom: 56.25%;
+		margin: 25px auto;
+	}
+
 	.film-info {
 		margin-left: 2.5%;
+		width: 50%;
+	}
+
+	.title {
+		margin-bottom: 10px;
 	}
 
 	@media all and (max-width: 768px) {
@@ -66,11 +76,16 @@
 
 		.film-info {
 			margin-left: 0;
+			width: 100%;
 		}
 
 		.video {
 			margin: 2% 0;
 			padding-bottom: 56.25%;
+		}
+
+		.title {
+			margin-bottom: 0;
 		}
 	}
 
