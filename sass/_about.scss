@@ -28,6 +28,16 @@
 	}
 }
 
+.trailer > .container {
+	width: 75%;
+}
+
+@media all and (max-width: 768px) {
+	.trailer > .container {
+		width: 100%;
+	}
+}
+
 .trailer-video {
 	position: relative;
 	padding-bottom: 56.25%;

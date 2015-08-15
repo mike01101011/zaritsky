@@ -7,9 +7,6 @@
 
 .news-photo {
 	margin-right: 2.5%;
-	img {
-		display: block;
-	}
 }
 
 .read-more-button {
@@ -24,11 +21,9 @@
 		flex-direction: column;
 	}
 
-	.news-photo, .news-brief {
-	}
-
 	.news-photo {
 		margin: 0 auto;
+		width: 200px;
 	}
 
 	.news-brief {

@@ -1,13 +1,27 @@
 // Website Opening - start
 
 	.filmography-quote {
-		padding-bottom: 0;
-		text-align: center;
+		width: 50%;
+		margin: 0 auto;
+		p {
+			padding-bottom: 0;
+			text-align: left;
+			width: 480px;
+			margin: 0 auto;
+		}
 	}
 
-	@media all and (max-width: 1024px) {
+	@media all and (max-width:768px) {
 		.filmography-quote {
-			text-align: left;
+			width: 100%;
+		}
+	}
+
+	@media all and (max-width: 480px) {
+		.filmography-quote {
+			p {
+				width: 100%;
+			}
 		}
 	}
 
@@ -60,6 +74,7 @@
 	.film-info {
 		margin-left: 2.5%;
 		width: 50%;
+		margin-top: 20px;
 	}
 
 	.title {

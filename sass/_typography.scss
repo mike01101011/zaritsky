@@ -19,20 +19,19 @@
 			font-size: 8rem;
 			width: 100%;
 			text-transform: uppercase;
-			line-height: 96px;
-			line-height: 9.6rem;
+			line-height: 1;
 		}
 	}
 
 	.project-details {		
 		p {
 			color: white;
-			font-size: 38px;
-			font-size: 3.8rem;
-			font-family: $oswald;
-			text-transform: uppercase;
-			line-height: 45px;
-			line-height: 4.5rem;
+			font-size: 32px;
+			font-size: 3.2rem;
+			font-family: $sourcepro;
+			// text-transform: uppercase;
+			line-height: 1.2;
+			// line-height: 4.5rem;
 		}
 	}
 	
@@ -151,14 +150,11 @@
 			h1 {
 				font-size: 60px;
 				font-size: 6rem;
-				// width: 75%;
-				line-height: 66px;
-				line-height: 6.6rem;
 			}
 		}
 	}
 	
-	@media all and (max-width: 767px) {
+	@media all and (max-width: 480px) {
 		html {
 			font-size: 50%;
 		}
@@ -167,8 +163,6 @@
 			h1 {
 				font-size: 50px;
 				font-size: 5rem;
-				line-height: 46px;
-				line-height: 4.6rem;
 				width: 100%;
 			}
 
@@ -193,8 +187,7 @@
 			h1 {
 				font-size: 50px;
 				font-size: 5rem;
-				line-height: 46px;
-				line-height: 4.6rem;
+				line-height: 1;
 				width: 100%;
 			}
 
