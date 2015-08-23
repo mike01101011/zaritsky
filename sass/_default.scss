@@ -48,6 +48,7 @@
 .banner {
 	padding-top: 45px;
 	img {
+		// opacity: .15;
 		width: 100%;
 		display: block;
 	}
@@ -63,6 +64,13 @@ section {
 	&:nth-child(odd) {
 		background-image: url('./img/background/textured-background-green.png');
 		background-repeat: repeat;
+		color: white;
+	}
+}
+
+.site-title > h1 > a {
+	color: $gold;
+	&:hover {
 		color: white;
 	}
 }

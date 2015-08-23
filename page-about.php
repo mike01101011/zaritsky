@@ -3,12 +3,8 @@
 <?php include("navigation.php"); ?>
 
 <main>
-	<div class="banner">
-		<img src="https://placeholdit.imgix.net/~text?txtsize=63&txt=1000%C3%97250&w=1000&h=250" alt="test">
-		<div class="container">
-			<h1><?php the_title(); ?></h1>
-		</div> <!-- /.container -->
-	</div>
+	
+	<?php include("banner.php"); ?>
 
 	<?php $onePageQuery = new WP_Query(
 			array(

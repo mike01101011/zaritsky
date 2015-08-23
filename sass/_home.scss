@@ -2,12 +2,9 @@
 	.hero {
 		height: 100vh;
 		// background: #EEDEC2;
-		background:
-			linear-gradient(
-		      rgba(255, 228, 181, 0.5), 
-		      rgba(255, 228, 181, 0.5)
-		    ),
-			url("./img/background/home-background.jpg");
+		background-image:
+			url("./img/background/textured-opacity.png"),
+		    url('./img/background/home-background.jpg');
 		background-size: cover;
 		background-repeat: no repeat;
 		background-position: right;
