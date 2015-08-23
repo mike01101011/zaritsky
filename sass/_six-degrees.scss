@@ -1,6 +1,8 @@
+
+
 .degree-option {
 	border: 1px solid pink;
-	height: calc(100vh - 315px);
+	height: calc(100vh - 425px);
 	display: flex;
 	display: -webkit-flex;
 	flex-direction: row;
@@ -18,6 +20,13 @@
 .degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
 	width: 100%;
 	border: 1px solid blue;
+}
+
+
+@media all and (max-width: 1200px) {
+	.degree-option {
+		height: calc(100vh - 315px);
+	}
 }
 
 @media all and (max-width: 768px) {
