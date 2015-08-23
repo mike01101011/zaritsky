@@ -1,8 +1,9 @@
 
 
+
 .degree-option {
 	border: 1px solid pink;
-	height: calc(100vh - 380px);
+	height: calc(100vh - 270px);
 	display: flex;
 	display: -webkit-flex;
 	flex-direction: row;
@@ -22,17 +23,9 @@
 	border: 1px solid blue;
 }
 
-
-@media all and (max-width: 1200px) {
-	.degree-option {
-		height: calc(100vh - 335px);
-	}
-}
-
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
 	.degree-option {
 		display: block;
-		height: calc(100vh - 270px);
 	}
 
 	.row {
@@ -49,7 +42,7 @@
 	}
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 480px) {
 	.degree-option {
 		height: calc(100vh - 150px);
 	}
@@ -63,5 +56,11 @@
 		width: 100%;
 		height: 100vh;
 		border: 1px solid purple;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.degree-option {
+		height: calc(100vh - 380px);
 	}
 }
