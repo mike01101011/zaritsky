@@ -2,7 +2,6 @@
 
 
 .degree-option {
-	border: 1px solid pink;
 	height: calc(100vh - 270px);
 	display: flex;
 	display: -webkit-flex;
@@ -20,12 +19,42 @@
 
 .degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
 	width: 100%;
-	border: 1px solid blue;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.degree-1 {
+	background-image: url("./img/background/atom-egoyan.png");
+}
+
+.degree-2 {
+	background-image: url("./img/background/joni-mitchell.png");
+}
+
+.degree-3 {
+	background-image: url("./img/background/paul-thomas-anderson.png");
+}
+
+.degree-4 {
+	background-image: url("./img/background/roseanne-barr.png");
+}
+
+.degree-5 {
+	background-image: url("./img/background/sarah-gilbert.png");
+}
+
+.degree-6 {
+	background-image: url("./img/background/atom-egoyan.png");
 }
 
 @media all and (max-width: 768px) {
 	.degree-option {
 		display: block;
+	}
+
+	.degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
+		background-position: center 30%;
 	}
 
 	.row {
@@ -38,7 +67,6 @@
 
 	.degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
 		width: 100%;
-		border: 1px solid green;
 	}
 }
 
@@ -55,7 +83,10 @@
 	.degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
 		width: 100%;
 		height: 100vh;
-		border: 1px solid purple;
+	}
+
+	.degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
+		background-position: center 32.5%;
 	}
 }
 
