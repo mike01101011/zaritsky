@@ -7,6 +7,7 @@
 	display: -webkit-flex;
 	flex-direction: row;
 	-webkit-flex-direction: row;
+	margin-top: 20px;
 }
 
 .row {
@@ -25,27 +26,57 @@
 }
 
 .degree-1 {
-	background-image: url("./img/background/atom-egoyan.png");
+	background-image:
+		linear-gradient(
+			rgba(255, 228, 181, 0.5), 
+			rgba(255, 228, 181, 0.5)
+		),
+		url("./img/background/atom-egoyan.png");
 }
 
 .degree-2 {
-	background-image: url("./img/background/joni-mitchell.png");
+	background-image:
+		linear-gradient(
+			rgba(189, 183, 107, 0.5), 
+			rgba(189, 183, 107, 0.5)
+		),
+		url("./img/background/joni-mitchell.png");
 }
 
 .degree-3 {
-	background-image: url("./img/background/paul-thomas-anderson.png");
+	background-image:
+		linear-gradient(
+			rgba(255, 228, 181, 0.5), 
+			rgba(255, 228, 181, 0.5)
+		),
+		url("./img/background/paul-thomas-anderson.png");
 }
 
 .degree-4 {
-	background-image: url("./img/background/roseanne-barr.png");
+	background-image:
+		linear-gradient(
+			rgba(189, 183, 107, 0.5), 
+			rgba(189, 183, 107, 0.5)
+		),
+		url("./img/background/roseanne-barr.png");
 }
 
 .degree-5 {
-	background-image: url("./img/background/sarah-gilbert.png");
+	background-image:
+		linear-gradient(
+			rgba(255, 228, 181, 0.5), 
+			rgba(255, 228, 181, 0.5)
+		),
+		url("./img/background/sarah-gilbert.png");
 }
 
 .degree-6 {
-	background-image: url("./img/background/atom-egoyan.png");
+	background-image:
+		linear-gradient(
+			rgba(189, 183, 107, 0.5), 
+			rgba(189, 183, 107, 0.5)
+		),
+		url("./img/background/atom-egoyan.png");
 }
 
 @media all and (max-width: 768px) {
