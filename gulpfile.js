@@ -8,7 +8,9 @@ var gulp = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer'),
 	minifyCSS = require('gulp-minify-css'),
 	uglify = require('gulp-uglify'),
-	svgmin = require('gulp-svgmin');
+	svgmin = require('gulp-svgmin'),
+	imagemin = require('gulp-imagemin'),
+	pngquant = require('imagemin-pngquant');
 
 // Proxy Server
 gulp.task('browser-sync', function() {
@@ -34,6 +36,16 @@ gulp.task('svg', function() {
     return gulp.src('./img/*.*')
         .pipe(svgmin())
         .pipe(gulp.dest('./img/live/'));
+});
+
+// PNG Minification
+gulp.task('png', function() {
+	return gulp.src('./img/*.*')
+		.pipe(imagemin({
+			progressive: true,
+			use: [pngquant()]
+		}))
+		.pipe(gulp.dest('./img/live/'));
 });
 
 //Minify Javascript

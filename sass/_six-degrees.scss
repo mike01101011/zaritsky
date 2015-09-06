@@ -18,11 +18,23 @@
 	width: 100%;
 }
 
-.degree-1, .degree-2, .degree-3, .degree-4, .degree-5, .degree-6 {
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+// Hover State
+.degree {
+    position:relative;
+    &:after {
+		content:'\A';
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0; left:0;
+		background:rgba(0,0,0,0.35);
+		opacity:0;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+    }
+    &:hover:after {
+    	opacity: 1;
+    }
 }
 
 .degree-1 {
@@ -77,6 +89,18 @@
 			rgba(189, 183, 107, 0.5)
 		),
 		url("./img/background/atom-egoyan.png");
+}
+
+.degree-1,
+.degree-2,
+.degree-3,
+.degree-4,
+.degree-5,
+.degree-6 {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 @media all and (max-width: 768px) {
