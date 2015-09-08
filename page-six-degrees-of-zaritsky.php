@@ -14,21 +14,21 @@
 
 	<div class="degree-option">
 		<div class="row">
-			<a href="./first" class="degree-1 degree"></a>
+			<a href="./1-degree" class="degree-1 degree"></a>
 
-			<a href="#" class="degree-2 degree"></a>
+			<a href="./2-degree" class="degree-2 degree"></a>
 		</div>
 		
 		<div class="row">
-			<a href="#" class="degree-3 degree"></a>
+			<a href="./3-degree" class="degree-3 degree"></a>
 
-			<a href="#" class="degree-4 degree"></a>
+			<a href="./4-degree" class="degree-4 degree"></a>
 		</div>
 		
 		<div class="row">
-			<a href="#" class="degree-5 degree"></a>
+			<a href="./5-degree" class="degree-5 degree"></a>
 
-			<a href="#" class="degree-6 degree"></a>
+			<a href="./6-degree" class="degree-6 degree"></a>
 		</div>
 	</div>
 
