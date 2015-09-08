@@ -3,8 +3,14 @@
 <?php include("navigation.php"); ?>
 
 <main>
-	
+
 	<?php include("banner.php"); ?>
+
+	<div class="container">
+		<section class="degree-intro">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione molestias provident enim, accusantium suscipit fugiat nemo sit quasi repellat ipsum expedita eum iusto aspernatur molestiae vel exercitationem explicabo. Eos, consequatur.</p>
+		</section>
+	</div>
 
 	<div class="degree-option">
 		<div class="row">

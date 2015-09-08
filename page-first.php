@@ -12,11 +12,22 @@
 		</div> <!-- /.container -->
 	</div>
 
-	<div class="container">
-		<h1>Test</h1>
-	</div> <!-- /.container -->
-
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<div class="container">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam accusamus, quis beatae blanditiis quasi laudantium provident rem facere cum dignissimos veritatis, fuga, explicabo tempore numquam ex ipsum at commodi! Ex!</h1>
+				</div> <!-- /.container -->
+			</section>
+			<section>
+				<div class="container">
+					<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quaerat quos nobis. Quos culpa, magni, recusandae animi explicabo dolorem tempore! Praesentium nulla, magnam assumenda aliquam. A doloremque sunt voluptas magni.</h1>
+				</div>
+			</section>
+		</div> <!-- /.slides -->
+	</div> <!-- /.reveal -->
 			
 </main> <!-- /.main -->
+
 
 <?php get_footer(); ?>
