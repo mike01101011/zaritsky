@@ -1,0 +1,22 @@
+.wrap {
+	margin: 0 auto; 
+	// max-width: 1200px;
+	padding: 0 2.5%;
+	overflow: hidden;
+}
+
+#slides {
+	width: 999999px;
+}
+
+#slides > div {
+	height: 50vh;
+	width: 1200px;
+	float: left;
+	margin-right: 200px;
+	// text-align: center;    
+}
+
+#slides div {
+   transition: all 1s linear;
+}
