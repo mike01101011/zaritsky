@@ -118,7 +118,18 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/live/scripts.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
 
+	<script type="text/javascript">
+	   $(document).ready(function(){
+	     $('.slides').slick({
+	       infinite: false,
+	       mobileFirst: true,
+	       edgeFriction: 0,
+	       nextArrow: '.next',
+	     });
+	   });
+	 </script>
 
 	<script>
 	/* Google Analytics! */

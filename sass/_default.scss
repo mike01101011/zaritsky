@@ -36,6 +36,7 @@
 	}
 // main - end
 
+
 // container - start
 	.container {
 		margin: 0 auto; 
@@ -73,12 +74,33 @@ section {
 	}
 }
 
-.site-title > h1 > a {
-	color: $gold;
+
+// Directional Arrow - start
+.prev, .next, .arrow-down {
+	fill: #2A3737;
+	max-width: 75px;
+	height: auto;
 	&:hover {
-		color: white;
+		fill: white;
 	}
 }
+
+.arrow-down {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.prev, .next {
+	&:hover {
+		cursor: pointer;
+	}
+}
+// Directional Arrow - end
+
 
 // Radio Button - start
 [type="radio"] {

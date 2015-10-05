@@ -76,12 +76,15 @@
 	}
 
 	.site-title {
-		h1 {
+		a {
 			float: left;
 			font-family: $oswald;
 			text-transform: uppercase;
 			font-size: 2.4rem;
 			color: $gold;
+			&:hover {
+				color: white;
+			}
 		}
 	}
 

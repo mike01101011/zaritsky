@@ -37,7 +37,7 @@
       <div class="container clearfix">
 
         <div class="site-title">
-          <h1><a href="//localhost:3000/zaritsky_site/">Zaritsky Project</a></h1>
+          <a href="//localhost:3000/zaritsky_site/">Zaritsky Project</a>
         </div> <!-- /.site-title -->
 
         <div class="menu-button">

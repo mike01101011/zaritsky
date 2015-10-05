@@ -1,22 +1,17 @@
-.wrap {
-	margin: 0 auto; 
-	// max-width: 1200px;
-	padding: 0 2.5%;
-	overflow: hidden;
+.slick-slider {
+	margin-bottom: 0;
 }
 
-#slides {
-	width: 999999px;
+.slide-content {
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	min-height: calc(100vh - 294px);
+	> .slides {
+		flex: 1;
+	}
 }
 
-#slides > div {
-	height: 50vh;
-	width: 1200px;
-	float: left;
-	margin-right: 200px;
-	// text-align: center;    
-}
-
-#slides div {
-   transition: all 1s linear;
+.written-info {
+	padding: 25px 0;
 }
