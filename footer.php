@@ -127,6 +127,7 @@
 	       mobileFirst: true,
 	       edgeFriction: 0,
 	       nextArrow: '.next',
+	       prevArrow: '.prev'
 	     });
 	   });
 	 </script>

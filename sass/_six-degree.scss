@@ -13,5 +13,22 @@
 }
 
 .written-info {
-	padding: 25px 0;
+	padding-top: 25px;
+}
+
+.slide {
+	display: flex;
+	flex-direction: row;
+}
+
+.next, .prev {
+    flex: 1 0 10%;
+}
+
+.next {
+    padding-left: 15px;
+}
+
+.prev {
+    padding-right: 15px;
 }
