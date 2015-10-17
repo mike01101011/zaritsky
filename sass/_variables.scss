@@ -23,9 +23,22 @@
 		$small-mobile: 'all and (max-width: 480px)';
 	// Media Queries - end
 
+	
+	// Font Size - start
 	@mixin font-size($sizeValue) {
 	  font-size: ($sizeValue * 10) + px;
 	  font-size: $sizeValue + rem;
 	}
+	// Font Size - end
 
+
+	// border-radius - start
+	@mixin border-radius($radius) {
+	  -webkit-border-radius: $radius;
+	     -moz-border-radius: $radius;
+	      -ms-border-radius: $radius;
+	          border-radius: $radius;
+	}
+	// border-radius - end
+	
 //mixins - end

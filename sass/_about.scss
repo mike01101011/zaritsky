@@ -8,7 +8,7 @@
 	transition: all 0.3s;
 	background: transparent;
 	color: $link;
-	border-radius: 5px;
+	@include border-radius(5px);
 	text-transform: uppercase;
 	font-weight: 700;
 	outline: none;

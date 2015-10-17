@@ -20,7 +20,7 @@
 		margin: 0 auto;
 		max-width: 100%;
 		display: block;
-		border-radius: 50%;
+		@include border-radius(50%);
 		@media #{$small-mobile} {
 			max-width: 75%;
 		}
