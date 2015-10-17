@@ -22,4 +22,10 @@
 		$mobile: 'all and (max-width: 767px)';
 		$small-mobile: 'all and (max-width: 480px)';
 	// Media Queries - end
+
+	@mixin font-size($sizeValue) {
+	  font-size: ($sizeValue * 10) + px;
+	  font-size: $sizeValue + rem;
+	}
+
 //mixins - end

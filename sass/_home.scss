@@ -14,8 +14,7 @@
 		}
 		h1 {
 			font-family: $oswald;
-			font-size: 80px;
-			font-size: 8rem;
+			@include font-size(8);
 			width: 100%;
 			text-transform: uppercase;
 			line-height: 1;
@@ -47,8 +46,7 @@
 		font-family: $oswald;
 		text-transform: uppercase;
 		font-weight: 700;
-		font-size: 25px;
-		font-size: 2.5rem;
+		@include font-size(2.5);
 	}
 	
 	.coming-soon-button {
@@ -58,8 +56,7 @@
 		font-family: $oswald;
 		transition: all 0.3s;
 		width: 80%;
-		font-size: 38px;
-		font-size: 3.8rem;
+		@include font-size(3.8);
 		background: $link;
 		color: white;
 		padding: 2.5%;
@@ -76,7 +73,7 @@
 			color: $link;
 			fill: $link;
 		}
-		.doc-logo {
+		.documentary-logo {
 			width: 74px;
 			height: auto;
 			vertical-align: middle;

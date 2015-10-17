@@ -14,8 +14,7 @@
 	outline: none;
 	padding: 0;
 	border: 3px solid $link;
-	font-size: 28px;
-	font-size: 2.8rem;
+	@include font-size(2.8);
 	&:hover {
 		border-color: $hover;
 		color: $hover;

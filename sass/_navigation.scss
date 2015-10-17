@@ -64,7 +64,8 @@
 		width: 100%;
 	}
 
-	.menu-button, .exit-button {
+	.menu-button,
+	.exit-button {
 		float: right;
 		transition: all 0.3s;
 		&:hover {
@@ -83,7 +84,7 @@
 			float: left;
 			font-family: $oswald;
 			text-transform: uppercase;
-			font-size: 2.4rem;
+			@include font-size(2.4);
 			color: $gold;
 			&:hover {
 				color: white;

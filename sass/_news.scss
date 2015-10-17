@@ -30,8 +30,7 @@
 	text-align: center;
 	font-family: $oswald;
 	transition: all 0.3s;
-	font-size: 28px;
-	font-size: 2.8rem;
+	@include font-size(2.8);
 	background: transparent;
 	color: $link;
 	border-radius: 5px;
