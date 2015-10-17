@@ -3,23 +3,15 @@
 	.filmography-quote {
 		width: 50%;
 		margin: 0 auto;
+		@media #{$mobile} {
+			width: 100%;
+		}
 		p {
 			padding-bottom: 0;
 			text-align: left;
 			width: 480px;
 			margin: 0 auto;
-		}
-	}
-
-	@media all and (max-width:768px) {
-		.filmography-quote {
-			width: 100%;
-		}
-	}
-
-	@media all and (max-width: 480px) {
-		.filmography-quote {
-			p {
+			@media #{$small-mobile} {
 				width: 100%;
 			}
 		}
@@ -44,6 +36,10 @@
 		display: flex;
 		-webkit-flex-direction: row;
 		flex-direction: row;
+		@media #{$mobile} {
+			-webkit-flex-direction: column;
+			flex-direction: column;
+		}
 	}
 
 	.video {
@@ -54,6 +50,10 @@
 		max-width: 100%;
 		flex: 1 0 50%;
 		margin-top: 7px;
+		@media #{$mobile} {
+			margin: 2% 0;
+			padding-bottom: 56.25%;
+		}
 	}
 
 	.video iframe,
@@ -75,33 +75,16 @@
 		margin-left: 2.5%;
 		width: 50%;
 		margin-top: 20px;
+		@media #{$mobile} {
+			margin-left: 0;
+			width: 100%;
+		}
 	}
 
 	.title {
 		margin-bottom: 10px;
-	}
-
-	@media all and (max-width: 768px) {
-		.film {
-			display: -webkit-flex;
-			display: flex;
-			-webkit-flex-direction: column;
-			flex-direction: column;
-		}
-
-		.film-info {
-			margin-left: 0;
-			width: 100%;
-		}
-
-		.video {
-			margin: 2% 0;
-			padding-bottom: 56.25%;
-		}
-
-		.title {
+		@media #{$mobile} {
 			margin-bottom: 0;
 		}
 	}
-
 // Website Opening - end

@@ -47,16 +47,13 @@
 
 
 .banner {
+	@media #{$mobile} {
+		padding-top: 45px;
+	}
 	img {
 		// opacity: .15;
 		width: 100%;
 		display: block;
-	}
-}
-
-@media all and (max-width: 768px) {
-	.banner {
-		padding-top: 45px;
 	}
 }
 

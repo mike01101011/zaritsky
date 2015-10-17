@@ -22,20 +22,14 @@
 	}
 }
 
-@media all and (max-width: 767px) {
-	.download-button {
-		width: 175px;
+.trailer > .container {
+	 @media #{$mobile} {
+		width: 100%;
 	}
 }
 
 .trailer > .container {
 	width: 75%;
-}
-
-@media all and (max-width: 768px) {
-	.trailer > .container {
-		width: 100%;
-	}
 }
 
 .trailer-video {
