@@ -19,42 +19,39 @@
 			<div class= "slides">
 				<div class="slide">
 					<div class="container">
-						<div class="written-info">
+						<svg class="six-degree-arrow" viewBox="0 0 350 350">
+							<g class='prev'>
+								<path fill="transparent" d="M294.664,29.47H55.346c-14.266,0-25.872,11.605-25.872,25.87v239.318c0,14.266,11.606,25.878,25.872,25.878
+									h239.318c14.268,0,25.868-11.612,25.868-25.878V55.34C320.532,41.075,308.93,29.47,294.664,29.47z M217.502,272.973l-84.134-97.968
+									l84.134-97.977V272.973z"/>
+								<path d="M294.664,3.597H55.346C26.814,3.597,3.602,26.81,3.602,55.34v239.318c0,28.534,23.212,51.744,51.744,51.744
+									h239.318c28.529,0,51.734-23.211,51.734-51.744V55.34C346.398,26.809,323.193,3.597,294.664,3.597z M320.532,294.658
+									c0,14.266-11.601,25.878-25.868,25.878H55.346c-14.266,0-25.872-11.612-25.872-25.878V55.34c0-14.265,11.606-25.87,25.872-25.87
+									h239.318c14.266,0,25.868,11.605,25.868,25.87V294.658z"/>
+								<polygon points="217.502,272.973 217.502,77.028 133.368,175.005 	"/>
+							</g>
+						</svg>
+
+						<div class="slide-info">
 							<h2>TEST</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nesciunt voluptatem dolorem totam. Laboriosam harum aliquid aspernatur dicta rerum cum, provident animi aliquam facere, ab at odio in omnis ut!</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eaque, neque quidem quae quia cumque sapiente. Hic repellat amet deserunt culpa sapiente totam, nemo laudantium, fugiat dolores tempora beatae esse.</p>
 						</div> <!-- /.written-info -->
-						<svg class="next" viewBox="0 0 350 350">
-							<path d="M294.664,346.402H55.346c-28.532,0-51.744-23.21-51.744-51.744V55.34c0-28.53,23.212-51.743,51.744-51.743 h239.318c28.529,0,51.734,23.212,51.734,51.743v239.318C346.398,323.191,323.193,346.402,294.664,346.402L294.664,346.402z M55.346,29.47c-14.266,0-25.872,11.605-25.872,25.87v239.318c0,14.266,11.606,25.878,25.872,25.878h239.318 c14.268,0,25.868-11.612,25.868-25.878V55.34c0-14.265-11.603-25.87-25.868-25.87H55.346z"/>
-							<path d="M217.502,174.996l-84.134,97.977V77.028"/>
-						</svg>
-					</div> <!-- /.container -->
-				</div> <!-- /.slide -->
-				
-				<div class="slide">
-					<div class="container">
-						<svg class="prev" viewBox="0 0 350 350">
-							<path d="M294.664,346.402H55.346c-28.532,0-51.744-23.21-51.744-51.744V55.34c0-28.53,23.212-51.743,51.744-51.743 h239.318c28.529,0,51.734,23.212,51.734,51.743v239.318C346.398,323.191,323.193,346.402,294.664,346.402L294.664,346.402z M55.346,29.47c-14.266,0-25.872,11.605-25.872,25.87v239.318c0,14.266,11.606,25.878,25.872,25.878h239.318 c14.268,0,25.868-11.612,25.868-25.878V55.34c0-14.265-11.603-25.87-25.868-25.87H55.346z"/>
-							<path d="M133.368,175.005l84.134-97.977v195.944"/>
-						</svg>
-						<div class="written-info">
-							<h2>TEST</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nesciunt voluptatem dolorem totam. Laboriosam harum aliquid aspernatur dicta rerum cum, provident animi aliquam facere, ab at odio in omnis ut!</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eaque, neque quidem quae quia cumque sapiente. Hic repellat amet deserunt culpa sapiente totam, nemo laudantium, fugiat dolores tempora beatae esse.</p>
-						</div> <!-- /.written-info -->
-						<svg class="next" viewBox="0 0 350 350">
-							<path d="M294.664,346.402H55.346c-28.532,0-51.744-23.21-51.744-51.744V55.34c0-28.53,23.212-51.743,51.744-51.743 h239.318c28.529,0,51.734,23.212,51.734,51.743v239.318C346.398,323.191,323.193,346.402,294.664,346.402L294.664,346.402z M55.346,29.47c-14.266,0-25.872,11.605-25.872,25.87v239.318c0,14.266,11.606,25.878,25.872,25.878h239.318 c14.268,0,25.868-11.612,25.868-25.878V55.34c0-14.265-11.603-25.87-25.868-25.87H55.346z"/>
-							<path d="M217.502,174.996l-84.134,97.977V77.028"/>
+						<svg class="six-degree-arrow" viewBox="0 0 350 350">
+							<g class='next'>
+								<path fill="transparent" d="M294.664,29.47H55.346c-14.266,0-25.872,11.605-25.872,25.87v239.318c0,14.266,11.606,25.878,25.872,25.878
+									h239.318c14.268,0,25.868-11.612,25.868-25.878V55.34C320.532,41.075,308.93,29.47,294.664,29.47z M133.368,272.973V77.028
+									l84.134,97.968L133.368,272.973z"/>
+								<path d="M294.664,3.597H55.346C26.814,3.597,3.602,26.81,3.602,55.34v239.318c0,28.534,23.212,51.744,51.744,51.744
+									h239.318c28.529,0,51.734-23.211,51.734-51.744V55.34C346.398,26.809,323.193,3.597,294.664,3.597z M320.532,294.658
+									c0,14.266-11.601,25.878-25.868,25.878H55.346c-14.266,0-25.872-11.612-25.872-25.878V55.34c0-14.265,11.606-25.87,25.872-25.87
+									h239.318c14.266,0,25.868,11.605,25.868,25.87V294.658z"/>
+								<polygon points="133.368,272.973 217.502,174.996 133.368,77.028 	"/>
+							</g>
 						</svg>
 					</div> <!-- /.container -->
 				</div> <!-- /.slide -->
 			</div> <!-- /.slides -->
-
-
-			
 		</div>
-			
-		
 	</main> <!-- /.main -->
-
 <?php get_footer(); ?>
