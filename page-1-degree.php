@@ -36,7 +36,9 @@
 							<h2>TEST</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nesciunt voluptatem dolorem totam. Laboriosam harum aliquid aspernatur dicta rerum cum, provident animi aliquam facere, ab at odio in omnis ut!</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio eaque, neque quidem quae quia cumque sapiente. Hic repellat amet deserunt culpa sapiente totam, nemo laudantium, fugiat dolores tempora beatae esse.</p>
-						</div> <!-- /.written-info -->
+							<img class='degree-image' src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="">
+						</div> <!-- /.slide-info -->
+						
 						<svg class="six-degree-arrow" viewBox="0 0 350 350">
 							<g class='next'>
 								<path fill="transparent" d="M294.664,29.47H55.346c-14.266,0-25.872,11.605-25.872,25.87v239.318c0,14.266,11.606,25.878,25.872,25.878

@@ -1,6 +1,4 @@
 $(function(){
-	//your jQuery here
-	
 	// Smooth Scroll
 	$(function() {
 	  $('a[href*=#]:not([href=#])').click(function() {
@@ -17,7 +15,6 @@ $(function(){
 	  });
 	});
 
-
 	//When click menu button, show menu
 	$('.menu-button').click(function() {
 		$('nav').addClass('open');
@@ -30,6 +27,7 @@ $(function(){
 		$('body').css('overflow','visible');
 	});
 
+	// Six Degrees Slide
 	$('.slides').slick({
 		infinite: false,
 		mobileFirst: true,
@@ -38,5 +36,4 @@ $(function(){
 		prevArrow: '.prev',
 		fade: true
 	});
-
 });

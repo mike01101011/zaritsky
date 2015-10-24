@@ -47,7 +47,8 @@
 
 
 .banner {
-	@media #{$mobile} {
+	padding-top: 57px;
+	@media #{$small-mobile} {
 		padding-top: 45px;
 	}
 	img {
