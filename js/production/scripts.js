@@ -16,7 +16,7 @@ $(function(){
 	});
 
 	//When click menu button, show menu
-	$('.menu-button').click(function() {
+	$('#menu-icon-button').click(function() {
 		$('nav').addClass('open');
 		$('body').css('overflow','hidden');
 	});
@@ -32,8 +32,8 @@ $(function(){
 		infinite: false,
 		mobileFirst: true,
 		edgeFriction: 0,
-		nextArrow: '.next',
-		prevArrow: '.prev',
+		nextArrow: '.arrow-right-button',
+		prevArrow: '.arrow-left-button',
 		fade: true
 	});
 });

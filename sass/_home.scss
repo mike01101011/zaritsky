@@ -60,9 +60,9 @@
 			color: $link;
 			fill: $link;
 		}
-		.documentary-logo {
-			width: 74px;
-			height: auto;
+		.large-documentary-logo {
+			height: 74px;
+			width: auto;
 			vertical-align: middle;
 			@media #{$small-mobile} {
 				width: 50px;

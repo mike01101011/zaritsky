@@ -74,7 +74,7 @@ section {
 
 
 // Directional Arrow - start
-.prev, .next, .arrow-down {
+.arrow-left-button, .arrow-right-button, .arrow-down {
 	fill: #2A3737;
 	max-width: 75px;
 	height: auto;
@@ -92,7 +92,7 @@ section {
 	padding-bottom: 20px;
 }
 
-.prev, .next {
+.arrow-left-button, .arrow-right-button {
 	&:hover {
 		cursor: pointer;
 	}
