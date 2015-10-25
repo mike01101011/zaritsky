@@ -33,17 +33,7 @@
 	.project-details {		
 		p {
 			color: white;
-			@include font-size(3.2);
-			font-family: $sourcepro;
-			line-height: 1.2;
 		}
-	}
-
-	.six-degree-link {
-		font-family: $oswald;
-		text-transform: uppercase;
-		font-weight: 700;
-		@include font-size(2.5);
 	}
 	
 	.coming-soon-button {
@@ -53,14 +43,14 @@
 		font-family: $oswald;
 		transition: all 0.3s;
 		width: 80%;
-		@include font-size(3.8);
+		@include font-size(2.8);
 		background: $link;
 		color: white;
 		padding: 2.5%;
 		@include border-radius(10px);
 		text-transform: uppercase;
 		font-weight: 700;
-		margin-top: 2.5%;
+		margin-top: 20px;
 		outline: none;
 		border: 1px solid $link;
 		fill: $hover;
@@ -74,6 +64,9 @@
 			width: 74px;
 			height: auto;
 			vertical-align: middle;
+			@media #{$small-mobile} {
+				width: 50px;
+			}
 		}
 	}
 

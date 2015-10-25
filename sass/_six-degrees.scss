@@ -14,33 +14,23 @@
 
 
 .degree-option {
-	height: calc(100vh - 413px);
+	height: 500px;
 	display: flex;
-	display: -webkit-flex;
-	-webkit-flex-direction: row;
 	flex-direction: row;
-	@media #{$desktop-large} {
-		height: calc(100vh - 380px);
-	}
 	@media #{$mobile} {
 		display: block;
-	}
-	@media #{$small-mobile} {
-		height: calc(100vh - 150px);
 	}
 }
 
 .row {
 	display: flex;
-	display: -webkit-flex;
-	-webkit-flex-direction: row;
 	flex-direction: row;
 	width: 100%;
+	margin: 0 auto;
 	@media #{$mobile} {
-		height: 33.33%;
+		height: 250px;
 	}
 	@media #{$small-mobile} {
-		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
 }
@@ -57,7 +47,6 @@
 		background:rgba(0,0,0,0.35);
 		opacity:0;
 		transition: all 0.5s;
-		-webkit-transition: all 0.5s;
     }
     &:hover:after {
     	opacity: 1;

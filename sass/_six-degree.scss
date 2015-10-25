@@ -1,10 +1,10 @@
-// .slide:first-child .prev {
-// 	display: none !important ;
-// }
+.slide:first-child .prev {
+	display: none !important ;
+}
 
-// .slide:last-child .next {
-// 	display: none !important ;
-// }
+.slide:last-child .next {
+	display: none !important ;
+}
 
 .slick-slider {
 	margin-bottom: 0;
@@ -13,7 +13,6 @@
 .slide-content {
 	display: flex;
 	flex-direction: column;
-	min-height: calc(100vh - 394px);
 }
 
 .slide-info {
@@ -46,7 +45,6 @@
 	margin: 25px auto;
 	@media #{$mobile} {
 		margin-top: 4.3225%;
-		margin-bottom: 4.3225%;
 	}
 	
 }

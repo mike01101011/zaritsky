@@ -88,3 +88,17 @@
 			font-family: $sourcepro;
 		}
 	}
+
+	.paragraph-link {
+		font-family: $oswald;
+		text-transform: uppercase;
+		font-weight: 700;
+		@include font-size(2);
+	}
+
+	.previous-degree {
+		font-family: $oswald;
+		text-transform: uppercase;
+		@include font-size(1.5);
+
+	}

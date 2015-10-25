@@ -117,7 +117,7 @@
 	</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/live/scripts.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/live/build.js"></script>
 	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
 	
 	<script>
