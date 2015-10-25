@@ -53,7 +53,7 @@ gulp.task('compress', function(){
 	return gulp. src('js/production/*.js')
 		.pipe(concat('build.js'))
 		.pipe(uglify())
-		.pipe(gulp.dest('js/live/'))
+		.pipe(gulp.dest('js/'))
 });
 
 

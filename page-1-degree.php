@@ -250,7 +250,7 @@
 
 						<div class="slide-info">
 							<h2>John Zaritsky</h2>
-							<p><a class="paragraph-link" href="https://www.youtube.com/watch?v=kS138NuLRzU" target="_blank">Tears Are Not Enough</a><em></em> was a hit song produced as a famine-relief fundraising effort for Ethiopia. Zaritsky directed a behind-the-scenes documentary by the same name, which captured a one-off assemblage of Canada’s finest artists during the song recording. The event would not have come into fruition without the help of talent manager <span class="previous-degree">Bruce Allen</span>.</p>
+							<p><a class="paragraph-link" href="https://www.youtube.com/watch?v=kS138NuLRzU" target="_blank"><em>Tears Are Not Enough</em></a> was a hit song produced as a famine-relief fundraising effort for Ethiopia. Zaritsky directed a behind-the-scenes documentary by the same name, which captured a one-off assemblage of Canada’s finest artists during the song recording. The event would not have come into fruition without the help of talent manager <span class="previous-degree">Bruce Allen</span>.</p>
 							<img class='degree-image' src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="">
 						</div> <!-- /.slide-info -->
 						
