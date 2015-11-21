@@ -22,31 +22,8 @@
 }
 
 .trailer > .container {
-	 @media #{$mobile} {
+	width: 75%;
+	@media #{$mobile} {
 		width: 100%;
 	}
-}
-
-.trailer > .container {
-	width: 75%;
-}
-
-.trailer-video {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	flex: 1 0 50%;
-	margin-top: 7px;
-}
-
-.trailer-video iframe,
-.trailer-video object,
-.trailer-video embed { 
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
 }

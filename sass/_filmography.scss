@@ -43,31 +43,11 @@
 	}
 
 	.video {
-		position: relative;
-		padding-bottom: 25%;
-		height: 0;
-		overflow: hidden;
-		max-width: 100%;
-		flex: 1 0 50%;
-		margin-top: 7px;
-		@media #{$mobile} {
-			margin: 2% 0;
-			padding-bottom: 56.25%;
-		}
-	}
-
-	.video iframe,
-	.video object,
-	.video embed { 
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
+		flex: 1 0;
 	}
 
 	.zaritsky-on-work {
-		padding-bottom: 56.25%;
+		// padding-bottom: 56.25%;
 		margin: 25px auto;
 	}
 

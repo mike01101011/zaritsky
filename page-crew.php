@@ -24,7 +24,7 @@
 				<div class="container">
 					<div class="crew-member">
 						<div class="crew-photo">
-							<img src="<?php echo $crewphoto['url']; ?>" alt="">
+							<img src="<?php echo $crewphoto['url']; ?>" alt="<?php echo $crewphoto['alt']; ?>">
 						</div>
 						<div class="crew-info">
 							<h2><?php the_field( 'crew_name' ); ?></h2>

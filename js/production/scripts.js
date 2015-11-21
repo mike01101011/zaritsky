@@ -36,4 +36,8 @@ $(function(){
 		prevArrow: '.arrow-left-button',
 		fade: true
 	});
+
+
+	$('.container').fitVids();
+
 });
