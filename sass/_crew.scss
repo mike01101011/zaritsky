@@ -1,29 +1,29 @@
 .crew-member {
 	display: flex;
+	flex-direction: row;
 	@media #{$mobile} {
-		flex-wrap: wrap;
+		flex-direction: column;
 	}
 }
 
 .crew-photo {
 	margin-right: 2.5%;
-	flex: 1 0 auto;
 	@media #{$mobile} {
-		margin-right: 0;
-	}
-	img {
 		margin: 0 auto;
-		width: 100%;
+	}
+	& > img {
 		max-width: 350px;
-		display: block;
 		@include border-radius(50%);
-		@media #{$small-mobile} {
-			max-width: 75%;
+		@media #{$mobile} {
+			margin: 0 auto;
+			display: block;
+			width: 100%;
 		}
 	}
 }
 
 .crew-info {
+    flex: 1 0;
 	@media #{$mobile} {
 		margin-top: 10px;
 		h2,
