@@ -37,10 +37,12 @@
 		}
 	}
 
-	section {
+	section,
+	.slide-info {
 		p {
 			@include font-size(2);
 			font-family: $sourcepro;
+			font-weight: 400;
 		}
 	}
 
@@ -64,28 +66,22 @@
 	.slide-info {
 		h2 {
 			font-family: $oswald;
+			font-weight: 400;
 			text-transform: uppercase;
 			@include font-size(3);
 		}
 		h3 {
 			font-family: $oswald;
+			font-weight: 300;
 			text-transform: uppercase;
 			@include font-size(2.4);
 		}
 	}
 
-	.title,
 	.about,
 	.slide-info {
 		h2 {
 			text-align: center;
-		}
-	}
-
-	.slide-info {
-		p {
-			@include font-size(2);
-			font-family: $sourcepro;
 		}
 	}
 

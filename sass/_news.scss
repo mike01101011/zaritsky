@@ -9,11 +9,12 @@
 .news-photo {
 	margin-right: 2.5%;
 	@media #{$mobile} {
-		margin: 0 auto;
 	}
 	& > img {
 		max-width: 200px;
 		@media #{$mobile} {
+			margin: 0 auto;
+			display: block;
 			width: 100%;
 		}
 	}

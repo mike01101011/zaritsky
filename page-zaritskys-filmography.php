@@ -27,15 +27,22 @@
 		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
 			<section class="filmography">
 				<div class="container">
-					<div class="title">
-						<h2><?php the_field( 'film_title' ); ?></h2>
-					</div>
 					<div class="film">
 						<div class="video">
 							<?php the_field( 'video' ); ?>
 						</div>
 						<div class="film-info">
-							<p><?php the_field( 'film_info' ); ?></p>
+							<div class="title">
+								<h2><em>
+									<?php the_field( 'film_title' ); ?>
+								</em>
+								<span class="year">
+									<?php the_field( 'film_year' ); ?></h2>
+								</span>
+							</div>
+							<div class="info">
+								<p><?php the_field( 'film_info' ); ?></p>
+							</div>
 						</div>
 					</div>
 				</div>

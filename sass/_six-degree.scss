@@ -7,8 +7,6 @@
 }
 
 .gallery-cell {
-	width: 100%;
-	@media #{$small-mobile} {
 		&:nth-child(odd){
 	    	background-image: url('./img/background/textured-background.png');
 	    	background-repeat: repeat;
@@ -19,7 +17,10 @@
 	    	background-repeat: repeat;
 	    	color: white;
 	    }
-	}
+}
+
+.gallery-cell {
+	width: 100%;
 }
 
 .slide-info {
