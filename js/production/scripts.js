@@ -33,7 +33,7 @@ $(function(){
 
 	$(".main-gallery").flickity({
 	  // options
-		cellAlign: "left",
+		cellAlign: "center",
 		contain: true,
 		setGallerySize: true,
 		arrowShape: {
@@ -42,6 +42,8 @@ $(function(){
 			x2: 60, y2: 0,
 			x3: 10
 		},
-		pageDots: false
+		pageDots: false,
+		watchCSS: true,
+		imagesLoaded: true
 	});
 });

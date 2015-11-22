@@ -1,11 +1,29 @@
+.main-gallery:after {
+	content: 'flickity';
+	display: none;
+	@media #{$small-mobile} {
+		content: '';
+	}
+}
+
 .gallery-cell {
 	width: 100%;
+	@media #{$small-mobile} {
+		&:nth-child(odd){
+	    	background-image: url('./img/background/textured-background.png');
+	    	background-repeat: repeat;
+	    	color: $grey;
+	    }
+	    &:nth-child(even) {
+	    	background-image: url('./img/background/textured-background-green.png');
+	    	background-repeat: repeat;
+	    	color: white;
+	    }
+	}
 }
 
 .slide-info {
-	margin-top: 25px;
-    margin-right: auto;
-    margin-left: auto;
+	padding: 25px 0;
 }
 
 .degree-image {
@@ -15,16 +33,19 @@
 	display: block;
 	@media #{$mobile} {
 		margin-top: 4.3225%;
+		margin-bottom: 0;
 	}
 	
 }
 
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: $blue;
+	transition: all 0.3s;
+	fill: $blue;
 }
 .flickity-prev-next-button.no-svg {
-  color: $blue;
+	transition: all 0.3s;
+	color: $blue;
 }
 
 /* hide disabled button */
@@ -32,8 +53,17 @@
   display: none;
 }
 
+/* position outside */
+.flickity-prev-next-button.previous {
+	left: 15px;
+}
+.flickity-prev-next-button.next {
+	right: 15px;
+}
+
 
 .flickity-prev-next-button {
+	transition: all 0.3s;
 	width: 50px;
 	height: 50px;
 	background: transparent;
