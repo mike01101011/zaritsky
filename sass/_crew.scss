@@ -9,12 +9,12 @@
 	margin-right: 2.5%;
 	flex: 1 0 auto;
 	@media #{$mobile} {
-		flex: 1 0;
 		margin-right: 0;
 	}
 	img {
 		margin: 0 auto;
-		max-width: 100%;
+		width: 100%;
+		max-width: 350px;
 		display: block;
 		@include border-radius(50%);
 		@media #{$small-mobile} {
