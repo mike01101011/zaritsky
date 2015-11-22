@@ -74,27 +74,18 @@ section {
 
 
 // Directional Arrow - start
-.arrow-left-button, .arrow-right-button, .arrow-down {
-	fill: #2A3737;
+.arrow-down {
+	fill: $blue;
 	max-width: 75px;
 	height: auto;
-	&:hover {
-		fill: white;
-	}
-}
-
-.arrow-down {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	left: 0;
 	margin: auto;
 	padding-bottom: 20px;
-}
-
-.arrow-left-button, .arrow-right-button {
 	&:hover {
-		cursor: pointer;
+		fill: white;
 	}
 }
 // Directional Arrow - end

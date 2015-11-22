@@ -27,17 +27,21 @@ $(function(){
 		$('body').css('overflow','visible');
 	});
 
-	// Six Degrees Slide
-	$('.slides').slick({
-		infinite: false,
-		mobileFirst: true,
-		edgeFriction: 0,
-		nextArrow: '.arrow-right-button',
-		prevArrow: '.arrow-left-button',
-		fade: true
-	});
-
-
+	// Used to ensure all videos are responsive
 	$('.container').fitVids();
 
+
+	$(".main-gallery").flickity({
+	  // options
+		cellAlign: "left",
+		contain: true,
+		setGallerySize: true,
+		arrowShape: {
+			x0: 10,
+			x1: 60, y1: 50,
+			x2: 60, y2: 0,
+			x3: 10
+		},
+		pageDots: false
+	});
 });
