@@ -33,7 +33,7 @@ $(function(){
 
 	$(".main-gallery").flickity({
 	  // options
-		cellAlign: "center",
+		cellAlign: "left",
 		contain: true,
 		setGallerySize: true,
 		arrowShape: {

@@ -32,12 +32,9 @@
 	}
 
 	.film {
-		display: -webkit-flex;
 		display: flex;
-		-webkit-flex-direction: row;
 		flex-direction: row;
 		@media #{$mobile} {
-			-webkit-flex-direction: column;
 			flex-direction: column;
 		}
 	}
