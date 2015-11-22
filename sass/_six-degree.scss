@@ -8,16 +8,18 @@
 
 .gallery-cell {
 	width: 100%;
-	&:nth-child(odd){
-    	background-image: url('./img/background/textured-background.png');
-    	background-repeat: repeat;
-    	color: $grey;
-    }
-    &:nth-child(even) {
-    	background-image: url('./img/background/textured-background-green.png');
-    	background-repeat: repeat;
-    	color: white;
-    }
+	@media #{$small-mobile} {
+		&:nth-child(odd){
+	    	background-image: url('./img/background/textured-background.png');
+	    	background-repeat: repeat;
+	    	color: $grey;
+	    }
+	    &:nth-child(even) {
+	    	background-image: url('./img/background/textured-background-green.png');
+	    	background-repeat: repeat;
+	    	color: white;
+	    }
+	}
 }
 
 .slide-content {
