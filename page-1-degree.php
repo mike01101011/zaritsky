@@ -15,8 +15,45 @@
 			</div> <!-- /.container -->
 		</div>
 		
-		
+
+		<?php
+			$onePageQuery = new WP_Query(
+				array(
+					'posts_per_page' => -1,
+					'post_type' => 'degree',
+					'order' => 'DSC'
+				)
+			);
+		?>
+
+
 		<div class="main-gallery">
+
+			<?php if ( $onePageQuery->have_posts() ) : ?>
+				<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post();
+					$individualimage = get_field('individual_image');
+				?>
+					<div class="gallery-cell">
+						<div class="container">
+							<div class="slide-content">
+								<div class="slide-img">
+									<img src="<?php echo $individualimage['url']; ?>" alt="<?php echo $individualimage['alt']; ?>">
+								</div>
+								<div class="slide-info">
+									<h2><?php the_field( 'individual_name' ); ?></h2>
+									<p><?php the_field( 'individual_story' ); ?></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				<?php endwhile; ?>
+				<?php wp_reset_postdata(); ?>
+				<?php else: ?>
+			<?php endif; ?>		
+		</div>
+
+
+		<!-- <div class="main-gallery">
 			<div class="gallery-cell">
 				<div class="container">
 					<div class="slide-content">
@@ -108,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		
 	</main> <!-- /.main -->

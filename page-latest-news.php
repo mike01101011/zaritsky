@@ -24,7 +24,7 @@
 				<div class="container">
 					<div class="news-story">
 						<div class="news-photo">
-							<img src="<?php echo $newsimage['url']; ?>" alt="">
+							<img src="<?php echo $newsimage['url']; ?>" alt="<?php echo $newsimage['alt']; ?>">
 						</div>
 						<div class="news-brief">
 							<p><?php the_field( 'news_excerpt' ); ?></p>
