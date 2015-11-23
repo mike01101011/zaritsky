@@ -38,6 +38,7 @@
 		height: 40px;
 		display: block;
 		margin:0 auto;
+		transition: all 0.3s;
 		@media #{$mobile} {
 			height: 35px;
 		}
@@ -56,6 +57,7 @@
 
 
 	.cmf-logo {
+		transition: all 0.3s;
 		width: auto;
 		height: 35px;
 		display: block;
@@ -65,68 +67,152 @@
 		}
 		&:hover {
 			fill: lighten(black, 50%);
+			.square-1 {
+				fill: lighten(#6C6C6D, 5%);
+			}
+			.square-2 {
+				fill: lighten(#535353, 5%);
+			}
+			.square-3 {
+				fill: lighten(#7B7C7C, 5%);
+			}
+			.square-4 {
+				fill: lighten(#929191, 5%);
+			}
+			.square-5 {
+				fill: lighten(#747575, 5%);
+			}
+			.square-6 {
+				fill: lighten(#A1A1A0, 5%);
+			}
+			.square-7 {
+				fill: lighten(#C3C3C3, 5%);
+			}
+			.square-8 {
+				fill: lighten(#959595, 5%);
+			}
+			.square-9 {
+				fill: lighten(#888787, 5%);
+			}
+			.square-10 {
+				fill: lighten(#9E9F9F, 5%);
+			}
+			.square-11 {
+				fill: lighten(#D8D8D7, 5%);
+			}
+			.square-12 {
+				fill: lighten(#AEAEAE, 5%);
+			}
+			.square-13 {
+				fill: lighten(#868787, 5%);
+			}
+			.square-14 {
+				fill: lighten(#BCBCBC, 5%);
+			}
+			.square-15 {
+				fill: lighten(#969696, 5%);
+			}
+			.square-16 {
+				fill: lighten(#D1D2D2, 5%);
+			}
+			.square-17 {
+				fill: lighten(#B8B8B9, 5%);
+			}
+			.square-18 {
+				fill: lighten(#E5E5E5, 5%);
+			}
+			.square-19 {
+				fill: lighten(#CDCDCD, 5%);
+			}
+			.square-20 {
+				fill: lighten(#F1F1F1, 5%);
+			}
+			.square-21 {
+				fill: lighten(#E7E6E6, 5%);
+			}
 		}
 		.square-1 {
+			transition: all 0.3s;
 			fill: #6C6C6D;
 		}
 		.square-2 {
+			transition: all 0.3s;
 			fill: #535353;
 		}
 		.square-3 {
+			transition: all 0.3s;
 			fill: #7B7C7C;
 		}
 		.square-4 {
+			transition: all 0.3s;
 			fill: #929191;
 		}
 		.square-5 {
+			transition: all 0.3s;
 			fill: #747575;
 		}
 		.square-6 {
+			transition: all 0.3s;
 			fill: #A1A1A0;
 		}
 		.square-7 {
+			transition: all 0.3s;
 			fill: #C3C3C3;
 		}
 		.square-8 {
+			transition: all 0.3s;
 			fill: #959595;
 		}
 		.square-9 {
+			transition: all 0.3s;
 			fill: #888787;
 		}
 		.square-10 {
+			transition: all 0.3s;
 			fill: #9E9F9F;
 		}
 		.square-11 {
+			transition: all 0.3s;
 			fill: #D8D8D7;
 		}
 		.square-12 {
+			transition: all 0.3s;
 			fill: #AEAEAE;
 		}
 		.square-13 {
+			transition: all 0.3s;
 			fill: #868787;
 		}
 		.square-14 {
+			transition: all 0.3s;
 			fill: #BCBCBC;
 		}
 		.square-15 {
+			transition: all 0.3s;
 			fill: #969696;
 		}
 		.square-16 {
+			transition: all 0.3s;
 			fill: #D1D2D2;
 		}
 		.square-17 {
+			transition: all 0.3s;
 			fill: #B8B8B9;
 		}
 		.square-18 {
+			transition: all 0.3s;
 			fill: #E5E5E5;
 		}
 		.square-19 {
+			transition: all 0.3s;
 			fill: #CDCDCD;
 		}
 		.square-20 {
+			transition: all 0.3s;
 			fill: #F1F1F1;
 		}
 		.square-21 {
+			transition: all 0.3s;
 			fill: #E7E6E6;
 		}
 	}
