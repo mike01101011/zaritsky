@@ -11,9 +11,6 @@
 		<div class="banner">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/background/banner.png" alt="test">
 			<div class="container">
-			<div class="slide-content">
-				
-			</div>
 				<h1>Six Degrees of Zaritsky</h1>
 			</div> <!-- /.container -->
 		</div>
