@@ -2,21 +2,21 @@
 <?php include("navigation.php"); ?>
 
 
-<!-- carousel - start -->
-  <? include("carousel.php"); ?>
-<!-- carousel - end -->
-  <div class="container">
+  <main>
+  
+    <?php include("banner.php"); ?>
+    
 
-    <div class="content">
-      <?php // Start the loop ?>
-      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+    <div class="container">
 
-        <h2><?php the_title(); ?></h2>
-        <p><?php the_content(); ?></p>
-      <?php endwhile; // end the loop?>
-    </div> <!-- /,content -->
+      <div class="content">
+        <?php // Start the loop ?>
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-    <?php get_sidebar(); ?>
+          <h2><?php the_title(); ?></h2>
+          <p><?php the_content(); ?></p>
+        <?php endwhile; // end the loop?>
+      </div> <!-- /,content -->
 
   </div> <!-- /.container -->
 </main> <!-- /.main -->

@@ -46,4 +46,9 @@ $(function(){
 		watchCSS: true,
 		imagesLoaded: true
 	});
+
+	$('blockquote, q').exdent({
+		by: '.425em'
+    });
+
 });
