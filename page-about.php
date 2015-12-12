@@ -6,7 +6,7 @@
 	
 	<?php include("banner.php"); ?>
 
-	<?php $onePageQuery = new WP_Query(
+	<?php $about = new WP_Query(
 			array(
 				'posts_per_page' => -1,
 				'post_type' => 'trailer',
@@ -16,7 +16,7 @@
 	?>
 
 	<?php if (have_posts()) : ?>
-		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
+		<?php while ($about->have_posts()) : $about->the_post(); ?>
 			<section class="trailer">
 				<div class="container">
 					<div class="trailer-video">

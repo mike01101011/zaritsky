@@ -6,7 +6,7 @@
 	<?php include("banner.php"); ?>
 
 	<?php
-		$onePageQuery = new WP_Query(
+		$latest_news = new WP_Query(
 			array(
 				'posts_per_page' => -1,
 				'post_type' => 'news',
@@ -16,8 +16,8 @@
 	?>
 
 
-	<?php if ( $onePageQuery->have_posts() ) : ?>
-		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post();
+	<?php if ( $latest_news->have_posts() ) : ?>
+		<?php while ($latest_news->have_posts()) : $latest_news->the_post();
 			$newsimage = get_field('news_image');
 		?>
 			<section class="news">

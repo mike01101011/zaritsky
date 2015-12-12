@@ -6,7 +6,7 @@
 	<?php include("banner.php"); ?>
 
 	<?php
-		$onePageQuery = new WP_Query(
+		$contact = new WP_Query(
 			array(
 				'posts_per_page' => -1,
 				'post_type' => 'social',
@@ -22,8 +22,8 @@
 				<?php endwhile; ?>
 			<?php endif; ?>
 			<div class="social-media-outlets">
-				<?php if ( $onePageQuery->have_posts() ) : ?>
-					<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
+				<?php if ( $contact->have_posts() ) : ?>
+					<?php while ($contact->have_posts()) : $contact->the_post(); ?>
 						<div class="social-media">
 							<a href="<?php the_field( 'social_media_link' ); ?>" target="_blank" class="social-media-icon"><?php the_field( 'social_media' ); ?></a>
 						</div>

@@ -5,7 +5,7 @@
 <main>
 	<?php include("banner.php"); ?>
 
-	<?php $onePageQuery = new WP_Query(
+	<?php $filmography = new WP_Query(
 			array(
 				'posts_per_page' => -1,
 				'post_type' => 'film',
@@ -23,8 +23,8 @@
 		</div>
 	</section>
 
-	<?php if ( $onePageQuery->have_posts() ) : ?>
-		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post(); ?>
+	<?php if ( $filmography->have_posts() ) : ?>
+		<?php while ($filmography->have_posts()) : $filmography->the_post(); ?>
 			<section class="filmography">
 				<div class="container">
 					<div class="film">

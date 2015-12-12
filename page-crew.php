@@ -6,7 +6,7 @@
 	<?php include("banner.php"); ?>
 
 	<?php
-		$onePageQuery = new WP_Query(
+		$crew = new WP_Query(
 			array(
 				'posts_per_page' => -1,
 				'post_type' => 'crewmember',
@@ -16,8 +16,8 @@
 	?>
 
 
-	<?php if ( $onePageQuery->have_posts() ) : ?>
-		<?php while ($onePageQuery->have_posts()) : $onePageQuery->the_post();
+	<?php if ( $crew->have_posts() ) : ?>
+		<?php while ($crew->have_posts()) : $crew->the_post();
 			$crewphoto = get_field('crew_photo');
 		?>
 			<section class="crew-members">

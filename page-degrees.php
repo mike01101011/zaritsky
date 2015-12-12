@@ -14,7 +14,7 @@
 
 	<div class="degree-option">
 		<div class="row">
-			<a href="./one" class="degree-1 degree"></a>
+			<a href="./dennis-tito/" class="degree-1 degree"></a>
 
 			<a href="./2-degree" class="degree-2 degree"></a>
 		</div>
