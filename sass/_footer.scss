@@ -59,11 +59,11 @@
 	.cmf-logo {
 		transition: all 0.3s;
 		width: auto;
-		height: 35px;
+		height: 30px;
 		display: block;
 		margin:0 auto;
 		@media #{$mobile} {
-			height: 30px;
+			height: 25px;
 		}
 		&:hover {
 			fill: lighten(black, 50%);
