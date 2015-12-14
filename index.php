@@ -14,7 +14,7 @@
 
 	<section class="project-details overlay" id="below">
 		<div class="container">
-			<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of The Zaritsky Project.</p>
+			<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of <span class="film-title">Mr Zaritsky on TV</span>.</p>
 			<br>
 			<p>Never heard of John Zaritsky?</p>
 			<br>

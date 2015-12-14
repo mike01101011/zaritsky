@@ -91,7 +91,8 @@
 		@include font-size(2);
 	}
 
-	.previous-degree {
+	.previous-degree,
+	.film-title {
 		font-family: $oswald;
 		text-transform: uppercase;
 		@include font-size(1.95);
