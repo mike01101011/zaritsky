@@ -50,5 +50,4 @@ $(function(){
 	$('blockquote, q').exdent({
 		by: '.425em'
     });
-
 });

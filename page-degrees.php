@@ -8,12 +8,39 @@
 
 	<div class="container">
 		<section class="degree-intro">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione molestias provident enim, accusantium suscipit fugiat nemo sit quasi repellat ipsum expedita eum iusto aspernatur molestiae vel exercitationem explicabo. Eos, consequatur.</p>
+			<?php if (have_posts()) : ?>
+				<?php while (have_posts()) : the_post(); ?>
+					<?php the_content(); ?>
+				<?php endwhile; ?>
+			<?php endif; ?>
 		</section>
 	</div>
 
-	<div class="degree-option">
-		<div class="row">
+	<div class="degree-options">
+		<?php
+			$degree = new WP_Query(
+				array(
+					'posts_per_page' =>  -1,
+					'post_type' => 'degree',
+					'order' => 'DSC',
+				)
+			);
+		?>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+
+		<a href="" class="option-link"><img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" alt="" class="degree-option"></a>
+		<!-- <div class="row">
 			<a href="./dennis-tito/" class="degree-1 degree"></a>
 
 			<a href="./2-degree" class="degree-2 degree"></a>
@@ -29,7 +56,9 @@
 			<a href="./5-degree" class="degree-5 degree"></a>
 
 			<a href="./6-degree" class="degree-6 degree"></a>
-		</div>
+		</div> -->
+
+
 	</div>
 
 			
