@@ -1,7 +1,6 @@
 <nav class="main-navigation">
   <!-- off-screen menu = start -->
   <div class="container clearfix">
-
       <div class="exit-button">
         <span class="exit-icon-button"></span>
       </div> <!-- /.exit-button -->

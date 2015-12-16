@@ -18,7 +18,7 @@
 			<br>
 			<p>Never heard of John Zaritsky?</p>
 			<br>
-			<p>He's bigger than you think! Explore the <a href="#" class="paragraph-link">Six Degrees of Zaritsky</a>, and discover the steps of separation from the personalities you know and love.</p>
+			<p>He's bigger than you think! Explore the <a href="./degrees" class="paragraph-link">Six Degrees of Zaritsky</a>, and discover the steps of separation from the personalities you know and love.</p>
 			<a href="http://www.cbc.ca/documentarychannel/" class="coming-soon-button">Feature-Length Film Coming Soon To <span class="large-documentary-logo"></span>
 			</a>
 		</div>

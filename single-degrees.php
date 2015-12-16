@@ -26,28 +26,27 @@
 		?>
 
 		<div class="main-gallery">
-
 			<?php if ( $degree->have_posts() ) : ?>
 				<?php if( have_rows('individual') ): ?>
-						<?php while( have_rows('individual') ): the_row();
-							$image = get_sub_field('individuals_image');
-							$name = get_sub_field('individuals_name');
-							$story = get_sub_field('individuals_story');
-						?>
-							<div class="gallery-cell">
-								<div class="container">
-										<div class="slide-content">
-												<div class="slide-img">
-													<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
-												</div>
-												<div class="slide-info">
-													<h2><?php echo $name; ?></h2>
-													<p><?php echo $story; ?></p>
-												</div>
-										</div>
+					<?php while( have_rows('individual') ): the_row();
+						$image = get_sub_field('individuals_image');
+						$name = get_sub_field('individuals_name');
+						$story = get_sub_field('individuals_story');
+					?>
+						<div class="gallery-cell">
+							<div class="container">
+								<div class="slide-content">
+									<div class="slide-img">
+										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>">
+									</div>
+									<div class="slide-info">
+										<h2><?php echo $name; ?></h2>
+										<p><?php echo $story; ?></p>
+									</div>
 								</div>
 							</div>
-						<?php endwhile; ?>
+						</div>
+					<?php endwhile; ?>
 				<?php endif; ?>
 			<?php endif; ?>		
 		</div>
