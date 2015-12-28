@@ -84,11 +84,19 @@
 		}
 	}
 
-	.paragraph-link {
+	.paragraph-link,
+	p.return-to-six-degrees {
 		font-family: $oswald;
 		text-transform: uppercase;
 		font-weight: 700;
+	}
+
+	.paragraph-link {
 		@include font-size(2);
+	}
+
+	p.return-to-six-degrees {
+		@include font-size(2.4);
 	}
 
 	.previous-degree,
