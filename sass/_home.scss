@@ -2,8 +2,7 @@
 	.hero {
 		height: 100vh;
 		background-image:
-			url("./img/background/textured-opacity.png"),
-			url('./img/background/home-background.jpg');
+			url('./img/background/home_background.jpg');
 		background-size: cover;
 		background-repeat: no repeat;
 		background-position: right;
@@ -11,18 +10,57 @@
 			position: relative;
 			top: 50%;
 			transform: translateY(-50%);
+			@media #{$tablet} {
+				top: 63%;
+			}
+			@media #{$desktop} {
+				top: 67%;
+			}
+			@media #{$desktop-large} {
+				top: 70%;
+			}
+			@media #{$mobile} {
+				top: 54%;
+			}
+
 		}
 		h1 {
-			font-family: $oswald;
-			@include font-size(8);
+			font-family: impact;
+			@include font-size(8.5);
 			width: 100%;
 			text-transform: uppercase;
 			line-height: 1;
+			text-align: right;
+			color: darken(white, 5%);
+			width: 45%;
+			letter-spacing: -0.5px;
+			.on_tv {
+				@include font-size(12);
+				letter-spacing: -2.5px;
+				@media #{$tablet} {
+					@include font-size(16);
+				}
+				@media #{$small-mobile} {
+					@include font-size(10);
+				}
+			}
+			@media #{$tablet} {
+				width: 59%;
+			}
+			@media #{$desktop} {
+				@include font-size(10);
+				width: 52%;
+			}
+			@media #{$desktop-large} {
+				width: 44%;
+			}
 			@media #{$mobile} {
 				@include font-size(6);
+				width: 68%;
 			}
 			@media #{$small-mobile} {
 				@include font-size(5);
+				width: 71%;
 			}
 		}
 		.arrow-down {

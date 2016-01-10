@@ -99,10 +99,14 @@
 		@include font-size(2.4);
 	}
 
-	.previous-degree,
+	.degree,
 	.film-title {
 		font-family: $oswald;
 		text-transform: uppercase;
 		@include font-size(1.95);
 
+	}
+
+	.degree {
+		color: lighten($blue, 25%);
 	}

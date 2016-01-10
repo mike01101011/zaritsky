@@ -5,7 +5,7 @@
 <main>
 	<div class="hero">
 		<div class="container vertical-align">
-			<h1>Who in the World<br>is John Zaritsky?</h1>
+			<h1>Mr Zaritsky<br><span class="on_tv">on <em>TV</em></span></h1>
 		</div> <!-- /.container -->
 		<div class="container">
 			<a href="#below"><span class="arrow-down-button"></span></a>

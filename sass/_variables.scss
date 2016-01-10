@@ -10,6 +10,11 @@
 	// Fonts - start
 		$oswald: 'Oswald', sans-serif;
 		$sourcepro: 'Source Sans Pro', sans-serif;
+
+		@font-family {
+			font-family: futura, 'Oswald', sans-serif;
+			src: url(.font/Impact.ttf);
+		}
 	// Fonts - end
 // Variables - end
 
