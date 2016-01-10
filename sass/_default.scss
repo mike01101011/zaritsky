@@ -75,7 +75,7 @@ section {
 
 // Directional Arrow - start
 .arrow-down {
-	fill: $blue;
+	fill: darken(white, 5%);
 	max-width: 75px;
 	height: auto;
 	position: absolute;

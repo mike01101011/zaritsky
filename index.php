@@ -5,7 +5,7 @@
 <main>
 	<div class="hero">
 		<div class="container vertical-align">
-			<h1>Mr Zaritsky<br><span class="on_tv">on <em>TV</em></span></h1>
+			<h1>Mr Zaritsky<br><span class="on_tv">On <em>TV</em></span></h1>
 		</div> <!-- /.container -->
 		<div class="container">
 			<a href="#below"><span class="arrow-down-button"></span></a>
@@ -14,7 +14,7 @@
 
 	<section class="project-details overlay" id="below">
 		<div class="container">
-			<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of <span class="film-title">Mr Zaritsky on TV</span>.</p>
+			<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of <span class="film-title">Mr Zaritsky On TV</span>.</p>
 			<br>
 			<p>Never heard of John Zaritsky?</p>
 			<br>
