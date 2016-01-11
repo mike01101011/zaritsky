@@ -99,6 +99,15 @@
 		@include font-size(2.4);
 	}
 
+	.degree-intro {
+		p {
+			@include font-size(2.4);
+			.degree {
+				@include font-size(2.55);
+			}
+		}
+	}
+
 	.degree,
 	.film-title {
 		font-family: $oswald;
