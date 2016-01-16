@@ -64,20 +64,66 @@
 		width: 100%;
 	}
 
-	.menu-button,
-	.exit-button {
+	.menu-buttons {
 		float: right;
+	}
+
+	.menu-button {
+		float: left;
 		transition: all 0.3s;
+		&:first-child {
+			margin-right: 15px;
+		}
+		&:last-child {
+			margin-left: 30px;
+		}
 		&:hover {
 			cursor: pointer;
+		}
+		.menu,
+		.facebook,
+		.twitter {
+			fill: $gold;
+			transition: all 0.3s;
+			width: 40px;
+			padding: 0;
+			&:hover {
+				fill: $hover;
+			}
+		}
+		@media #{$mobile} {
+			&:first-child {
+				margin-right: 0px;
+			}
+			&:last-child {
+				margin-left: 0px;
+			}
+			.facebook,
+			.twitter {
+				display: none;
+			}
+		}
+		@media #{$small-mobile} {
+			.menu {
+				width: 32px;
+			}
 		}
 	}
 
 	.exit-button {
+		float: right;
 		margin-top: 1rem;
 		width: 40px;
 		height: 35px;
-		padding-left: 5px;
+		margin-left: 5px;
+		.close {
+			fill: $gold;
+			transition: all 0.3s;
+			&:hover {
+				fill: $hover;
+				cursor: pointer;
+			}
+		}
 		@media #{$small-mobile} {
 			width: 32px;
 		}
@@ -92,50 +138,6 @@
 			color: $gold;
 			&:hover {
 				color: white;
-			}
-		}
-	}
-
-	.menu-button {
-		.menu,
-		.facebook,
-		.twitter {
-			fill: $gold;
-			transition: all 0.3s;
-			width: 40px;
-			padding: 0;
-			&:hover {
-				fill: $hover;
-			}
-		}
-		.menu {
-			padding-left: 5px;
-		}
-		.facebook {
-			padding-right: 5px;
-		}
-		.twitter {
-			padding: 0 5px;
-		}
-		@media #{$mobile} {
-			.facebook,
-			.twitter {
-				display: none;
-			}
-		}
-		@media #{$small-mobile} {
-			.menu {
-				width: 32px;
-			}
-		}
-	}
-
-	.exit-button {
-		.close {
-			fill: $gold;
-			transition: all 0.3s;
-			&:hover {
-				fill: $hover;
 			}
 		}
 	}

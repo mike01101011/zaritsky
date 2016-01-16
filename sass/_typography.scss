@@ -39,6 +39,9 @@
 
 	section,
 	.slide-info {
+		h2 {
+			margin-bottom: 10px;
+		}
 		p {
 			@include font-size(2);
 			font-family: $sourcepro;
@@ -93,6 +96,7 @@
 
 	.paragraph-link {
 		@include font-size(2);
+		text-decoration: underline;
 	}
 
 	p.return-to-six-degrees {
@@ -108,14 +112,13 @@
 		}
 	}
 
-	.degree,
 	.film-title {
-		font-family: $oswald;
-		text-transform: uppercase;
-		@include font-size(1.95);
-
+		text-decoration: underline;
 	}
 
 	.degree {
+		font-family: $oswald;
+		text-transform: uppercase;
 		color: lighten($blue, 25%);
+		@include font-size(1.95);
 	}

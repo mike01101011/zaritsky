@@ -29,7 +29,7 @@
 						<div class="crew-info">
 							<h2><?php the_field( 'crew_name' ); ?></h2>
 							<h3><?php the_field('crew_position'); ?></h3>
-							<p><?php the_field( 'crew_bio' ); ?></p>
+							<?php the_field( 'crew_bio' ); ?>
 						</div>
 					</div>
 				</div>

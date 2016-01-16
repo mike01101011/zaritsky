@@ -41,7 +41,7 @@
 									</div>
 									<div class="slide-info">
 										<h2><?php echo $name; ?></h2>
-										<p><?php echo $story; ?></p>
+										<?php echo $story; ?>
 									</div>
 								</div>
 							</div>

@@ -1,7 +1,7 @@
 		<footer>
 		  <div class="container">
 		  	<div class="copyright">
-				Big Twin Production 2015
+				Big Twin Production <?php echo date("Y") ?>
 		  	</div> <!-- /.copyright -->
 			
 			<div class="produced-in-association">
