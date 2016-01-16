@@ -24,11 +24,17 @@
 				<div class="container">
 					<div class="news-story">
 						<div class="news-photo">
-							<a href="<?php the_field( 'news_link' ); ?>" target=_blank><img src="<?php echo $newsimage['url']; ?>" alt="<?php echo $newsimage['alt']; ?>" class="news-image"></a>
+							<?php if (get_field('news_link')) { ?>
+								<a href="<?php the_field( 'news_link' ); ?>" target=_blank><img src="<?php echo $newsimage['url']; ?>" alt="<?php echo $newsimage['alt']; ?>" class="news-image"></a>
+							<?php } else { ?>
+								<img src="<?php echo $newsimage['url']; ?>" alt="<?php echo $newsimage['alt']; ?>" class="news-image">
+							<?php } ?>
 						</div>
 						<div class="news-brief">
 							<?php the_field( 'news_excerpt' ); ?>
-							<a href="<?php the_field( 'news_link' ); ?>" class="read-more-button" target=_blank>Read More</a>
+							<?php if (get_field('news_link')): ?>
+								<a href="<?php the_field( 'news_link' ); ?>" class="read-more-button" target=_blank>Read More</a>
+							<?php endif; ?>
 						</div>
 					</div>
 				</div>

@@ -12,7 +12,7 @@
 	<section class="project-details overlay" id="below">
 		<div class="container">
 			<div class="project-info">
-				<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of <a href="./about" class="paragraph-link"><em>Mr&nbsp;Zaritsky On TV</em></a>.</p>
+				<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of <a href="./about" class="paragraph-link"><em>Mr&nbsp;Zaritsky&nbsp;On&nbsp;TV</em></a>.</p>
 				<br>
 				<p>Explore the <a href="./degrees" class="paragraph-link">Six Degrees of Zaritsky</a>, and discover John's connection to the cultural moguls and personalities you know and love.</p>
 				<br>
