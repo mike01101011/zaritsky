@@ -6,9 +6,6 @@
 	<div class="hero">
 		<div class="container vertical-align">
 			<h1>Mr Zaritsky<br><span class="on_tv">On <em>TV</em></span></h1>
-		</div> <!-- /.container -->
-		<div class="container">
-			<a href="#below"><span class="arrow-down-button"></span></a>
 		</div>
 	</div>
 
@@ -24,7 +21,7 @@
 			<a href="http://www.cbc.ca/documentarychannel/" class="coming-soon-button">Feature-Length Film Coming Soon To <span class="large-documentary-logo"></span>
 			</a>
 		</div>
-	</section> <!-- /.details -->
+	</section>
 </main> <!-- /.main -->
 
 <?php get_footer(); ?> 

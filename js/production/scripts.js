@@ -1,22 +1,5 @@
 var zaritskyApp = {};
 
-// Smooth Scroll
-zaritskyApp.smoothScroll = function() {
-	$('a[href*=#]:not([href=#])').click(function() {
-	  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	    var target = $(this.hash);
-	    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	    if (target.length) {
-	      $('html,body').animate({
-	        scrollTop: target.offset().top - 45
-	      }, 1000);
-	      return false;
-	    }
-	  }
-	});
-};
-
-
 //When click menu button, show menu
 zaritskyApp.showMenu = function() {
 	$('#menu-icon-button').click(function() {
@@ -71,7 +54,6 @@ zaritskyApp.exdent = function() {
 
 // Load on Page Load
 zaritskyApp.init = function() {
-	zaritskyApp.smoothScroll();
 	zaritskyApp.showMenu();
 	zaritskyApp.closeMenu();
 	zaritskyApp.fitVid();
