@@ -9,7 +9,6 @@ var gulp = require('gulp'),
 	minifyCSS = require('gulp-minify-css'),
 	uglify = require('gulp-uglify'),
 	concat = require('gulp-concat'),
-	svgmin = require('gulp-svgmin'),
 	imagemin = require('gulp-imagemin'),
 	pngquant = require('imagemin-pngquant');
 
@@ -29,13 +28,6 @@ gulp.task('styles', function(){
 		}))
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('./'))
-});
-
-//SVG Minification
-gulp.task('svg', function() {
-    return gulp.src('./img/*.*')
-        .pipe(svgmin())
-        .pipe(gulp.dest('img/live/'))
 });
 
 // PNG Minification
