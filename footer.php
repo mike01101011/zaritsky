@@ -1,10 +1,11 @@
 		<footer>
-		  <div class="container">
-		  	<div class="copyright">
-				Big Twin Production <?php echo date("Y") ?>
-		  	</div> <!-- /.copyright -->
-			
-			<div class="produced-in-association">
+		  <div class="container">			
+			<div class="produced-by">
+				<div class="big-twin-production">
+					Big Twin Production <?php echo date("Y") ?>
+					<span class="big-twin-logo"></span>
+				</div>
+
 				<div class="documentary">
 					Produced in association with
 					<a href="http://www.cbc.ca/documentarychannel/" target="_blank"><span class="documentary-logo"></span></a>

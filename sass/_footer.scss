@@ -7,37 +7,43 @@
 		}
 	}
 	
-	.copyright {
-		text-align: center;
-		margin-bottom: 10px;
-		@media #{$mobile} {
-			display: block;
-			margin-bottom: 0px;
-			text-align: center;
-		}
-	}
+
 // footer - end
 
 
-	.produced-in-association {
+	.produced-by {
 		text-align: center;
-		@media #{$mobile} {
-			margin-top: 10px;
-		}
 	}
-	
+
+	.big-twin-production {
+		display: inline-block;
+		margin-right: 25px;
+		text-align: center;
+	}
+
+	.big-twin-logo {
+		height: 45px;
+		width: auto;
+		display: block;
+		margin: 2.5px auto 0;
+	}
+
 // Documentary logo - start
 	.documentary {
 		display:inline-block;
 		margin-right: 25px;
 		text-align: center;
+		@media #{$small-mobile} {
+			margin-top: 10px;
+			display: block;
+		}
 	}
 	
 	.doc-logo {
 		width: auto;
 		height: 40px;
 		display: block;
-		margin:0 auto;
+		margin: 5px auto 0;
 		transition: all 0.3s;
 		@media #{$mobile} {
 			height: 35px;
@@ -53,10 +59,13 @@
 		display:inline-block;
 		margin: auto;
 		text-align: center;
+		@media #{$small-mobile} {
+			margin-top: 10px;
+			display: block;
+		}
 	}
 
-
-	.cmf-logo {
+	.cmfd-logo {
 		transition: all 0.3s;
 		width: auto;
 		height: 30px;
