@@ -19,6 +19,9 @@
 		display: inline-block;
 		margin-right: 25px;
 		text-align: center;
+		@media #{$small-mobile} {
+			margin-right: 0;
+		}
 	}
 
 	.big-twin-logo {
@@ -35,6 +38,7 @@
 		text-align: center;
 		@media #{$small-mobile} {
 			margin-top: 10px;
+			margin-right: 0;
 			display: block;
 		}
 	}

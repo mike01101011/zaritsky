@@ -31,7 +31,12 @@
 					<?php if( have_rows('individual') ): the_row();
 						$image = get_sub_field('individuals_image');
 					?>
-						<a href="<? the_permalink(); ?>" class="option-link"><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="degree-option"></a>
+						<a href="<? the_permalink(); ?>" class="option-link">
+							<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="degree-option">
+							<div class="slide-info">
+								<h2><?php echo empty( $post->post_parent ) ? get_the_title( $post->ID ) : get_the_title( $post->post_parent ); ?></h2>
+							</div>
+						</a>
 					<?php endif; ?>
 				<?php endwhile; ?>
 			<?php endif; ?>

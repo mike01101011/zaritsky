@@ -1,3 +1,13 @@
+.title-arrow {
+	width: 22px;
+	height: auto;
+	fill: $blue;
+	@media #{$small-mobile} {
+		width: 18px;
+		height: auto;
+	}
+}
+
 .main-gallery:after {
 	content: 'flickity';
 	display: none;

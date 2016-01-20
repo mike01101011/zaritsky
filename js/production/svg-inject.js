@@ -4,13 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	var twitterLogo = document.querySelectorAll('.twitter-menu-logo');
 	var menuButton = document.querySelectorAll('.menu-icon-button');
 	var exitButton = document.querySelectorAll('.exit-icon-button');
-	var arrowDown = document.querySelectorAll('.arrow-down-button');
-	var arrowLeft = document.querySelectorAll('.arrow-left-button');
-	var arrowRight = document.querySelectorAll('.arrow-right-button');
+	var arrowRight = document.querySelectorAll('.right-arrow');
 	var docLogo = document.querySelectorAll('.documentary-logo');
 	var largeDocLogo = document.querySelectorAll('.large-documentary-logo');
-	var arrowLeft = document.querySelectorAll('.arrow-left-button');
-	var arrowRight = document.querySelectorAll('.arrow-right-button');
 	var bigTwinLogo = document.querySelectorAll('.big-twin-logo');
 	var cmfdLogo = document.querySelectorAll('.cmfd-logo');
  
@@ -42,6 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	// Exit Button - end
 	
 
+	// Right Arrow - start
+	for (i = 0; i < arrowRight.length; i++) {
+		arrowRight[i].innerHTML = '<svg viewBox="120 0 175 350" enable-background="new 120 0 175 350" class="title-arrow"><path d="M295 175L120 0v175H295 120v175L295 175z"/></svg>'
+	}
+	// Right Arrow - end
 
 
 	// Documentary Channel Logo on Footer - start

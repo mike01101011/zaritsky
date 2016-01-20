@@ -11,7 +11,6 @@
 	}
 }
 
-
 .degree-options {
 	display: flex;
 	flex-direction: row;
@@ -21,16 +20,23 @@
 }
 
 .option-link {
-	@include border-radius(50%);
-	border: 4px solid $link;
-	margin: 10px;
-	&:hover {
-		border-color: $hover;
+	margin: 25px;
+	.degree-option {
+		@include border-radius(50%);
+		max-width: 225px;
+		display: block;
+		margin: 0 auto;
 	}
-}
-
-.degree-option {
-	max-width: 225px;
-	@include border-radius(50%);
-	vertical-align: middle;
+	.slide-info {
+		text-align: center;
+		.title-arrow {
+			width: 14px;
+			height: auto;
+			fill: $grey;
+			@media #{$small-mobile} {
+				width: 11px;
+				height: auto;
+			}
+		}
+	}
 }
