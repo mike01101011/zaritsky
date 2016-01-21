@@ -47,8 +47,7 @@
 
 
 .banner {
-	padding-top: 35px;
-	@media #{$small-mobile} {
+	@media #{$mobile} {
 		padding-top: 50px;
 	}
 	@media #{$tablet} {

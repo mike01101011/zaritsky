@@ -11,7 +11,7 @@
 			text-align: left;
 			width: 480px;
 			margin: 0 auto;
-			@media #{$small-mobile} {
+			@media #{$mobile} {
 				width: 100%;
 			}
 		}

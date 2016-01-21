@@ -33,7 +33,7 @@
 			width: 14px;
 			height: auto;
 			fill: $grey;
-			@media #{$small-mobile} {
+			@media #{$mobile} {
 				width: 11px;
 				height: auto;
 			}

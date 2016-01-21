@@ -103,7 +103,7 @@
 				display: none;
 			}
 		}
-		@media #{$small-mobile} {
+		@media #{$mobile} {
 			.menu {
 				width: 32px;
 			}
@@ -124,7 +124,7 @@
 				cursor: pointer;
 			}
 		}
-		@media #{$small-mobile} {
+		@media #{$mobile} {
 			width: 32px;
 		}
 	}

@@ -43,7 +43,7 @@
 					<div class="menu-button">
 						<a href="https://www.facebook.com/Mr-Zaritsky-On-TV-765569796899525/?fref=ts" target="_blank">
 							<span class="facebook-menu-logo"></span>
-						</a>						
+						</a>
 					</div>
 					<div class="menu-button">
 						<a href="https://twitter.com/bigtwinprod" target="_blank">
@@ -56,4 +56,4 @@
 				</div> <!-- menu button -->
 			</div> <!-- /.container -->
 		</div> <!-- /.wrapper -->
-	</header><!--/.header--> 
+	</header><!--/.header-->

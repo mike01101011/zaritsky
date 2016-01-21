@@ -3,7 +3,7 @@
 <?php include("navigation.php"); ?>
 
 <main>
-	
+
 	<?php include("banner.php"); ?>
 
 	<?php $about = new WP_Query(
@@ -20,7 +20,7 @@
 			<section class="trailer">
 				<div class="container">
 					<div class="trailer-video">
-						<?php the_field( 'trailer' ); ?>	
+						<?php the_field( 'trailer' ); ?>
 					</div>
 				</div>
 			</section>
@@ -41,7 +41,6 @@
 			</section>
 		<?php endwhile; ?>
 	<?php endif; ?>
-			
 </main> <!-- /.main -->
 
 <?php get_footer(); ?>

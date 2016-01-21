@@ -1,5 +1,5 @@
 		<footer>
-		  <div class="container">			
+		  <div class="container">
 			<div class="produced-by">
 				<div class="big-twin-production">
 					Big Twin Production <?php echo date("Y") ?>
@@ -22,8 +22,8 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.1/flickity.pkgd.min.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/js/build.js"></script>	
-		
+		<script src="<?php bloginfo('template_url'); ?>/js/build.js"></script>
+
 		<script>
 		/* Google Analytics! */
 		 var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]]; // Change UA-XXXXX-X to be your site's ID
@@ -33,5 +33,5 @@
 		</script>
 
 
-	</body> 
+	</body>
 	</html>

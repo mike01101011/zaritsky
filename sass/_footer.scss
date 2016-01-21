@@ -6,7 +6,7 @@
 			padding: 15px 0;
 		}
 	}
-	
+
 
 // footer - end
 
@@ -19,7 +19,7 @@
 		display: inline-block;
 		margin-right: 25px;
 		text-align: center;
-		@media #{$small-mobile} {
+		@media #{$mobile} {
 			margin-right: 0;
 		}
 	}
@@ -36,13 +36,13 @@
 		display:inline-block;
 		margin-right: 25px;
 		text-align: center;
-		@media #{$small-mobile} {
+		@media #{$mobile} {
 			margin-top: 10px;
 			margin-right: 0;
 			display: block;
 		}
 	}
-	
+
 	.doc-logo {
 		width: auto;
 		height: 40px;
@@ -63,7 +63,7 @@
 		display:inline-block;
 		margin: auto;
 		text-align: center;
-		@media #{$small-mobile} {
+		@media #{$mobile} {
 			margin-top: 10px;
 			display: block;
 		}

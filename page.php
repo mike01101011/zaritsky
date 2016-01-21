@@ -5,7 +5,6 @@
 <main>
 
 	<?php include("banner.php"); ?>
-	
 
 	<div class="container">
 

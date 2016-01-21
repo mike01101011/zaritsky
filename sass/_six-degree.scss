@@ -2,7 +2,7 @@
 	width: 22px;
 	height: auto;
 	fill: $blue;
-	@media #{$small-mobile} {
+	@media #{$mobile} {
 		width: 18px;
 		height: auto;
 	}
@@ -11,14 +11,14 @@
 .main-gallery:after {
 	content: 'flickity';
 	display: none;
-	@media #{$small-mobile} {
+	@media #{$mobile} {
 		content: '';
 	}
 }
 
 .gallery-cell {
 	width: 100%;
-	@media #{$small-mobile} {
+	@media #{$mobile} {
 		&:nth-child(odd){
 	    	background-image: url('./img/background/textured-background.png');
 	    	background-repeat: repeat;
@@ -41,7 +41,7 @@
 	@media #{$mobile} {
 		flex-direction: column;
 	}
-	@media #{$small-mobile} {
+	@media #{$mobile} {
 		width: 100%;
 	}
 }
@@ -114,7 +114,7 @@
 			color: white
 		}
 	}
-	@media #{$small-mobile} {
+	@media #{$mobile} {
 		display: none;
 	}
 }

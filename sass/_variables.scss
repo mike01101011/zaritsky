@@ -21,6 +21,9 @@
 
 //mixins - start
 	// Media Queries - start
+		$iphone4: 'all and (height: 320px)';
+		$iphone6: 'all and (width: 375px)';
+		$iphone6plus: 'all and (width: 414px)';
 		$desktop-large: 'all and (min-width: 1200px)';
 		$desktop: 'all and (min-width: 1024px)';
 		$tablet: 'all and (min-width: 768px)';
@@ -28,7 +31,7 @@
 		$small-mobile: 'all and (max-width: 480px)';
 	// Media Queries - end
 
-	
+
 	// Font Size - start
 	@mixin font-size($sizeValue) {
 	  font-size: ($sizeValue * 10) + px;
@@ -45,5 +48,5 @@
 	          border-radius: $radius;
 	}
 	// border-radius - end
-	
+
 //mixins - end

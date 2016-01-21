@@ -14,7 +14,7 @@
 				<?php endwhile; ?>
 			<?php endif; ?>
 		</section>
-		
+
 		<div class="degree-options">
 			<?php
 				$degree = new WP_Query(
@@ -42,7 +42,6 @@
 			<?php endif; ?>
 		</div>
 	</div>
-			
 </main> <!-- /.main -->
 
 <?php get_footer(); ?>

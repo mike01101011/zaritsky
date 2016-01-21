@@ -1,4 +1,4 @@
-<?php //index.php is the last resort template, if no other templates match 
+<?php //index.php is the last resort template, if no other templates match
 /**
 * Template Name: Degree
 */
@@ -48,7 +48,7 @@
 						</div>
 					<?php endwhile; ?>
 				<?php endif; ?>
-			<?php endif; ?>		
+			<?php endif; ?>
 		</div>
 	</main> <!-- /.main -->
 <?php get_footer(); ?>
