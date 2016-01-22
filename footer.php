@@ -2,7 +2,7 @@
 		  <div class="container">
 			<div class="produced-by">
 				<div class="big-twin-production">
-					Big Twin Production <?php echo date("Y") ?>
+					Big Twin Production's &copy; <?php echo date("Y") ?>
 					<span class="big-twin-logo"></span>
 				</div>
 

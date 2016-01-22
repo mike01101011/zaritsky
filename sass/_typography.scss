@@ -115,9 +115,15 @@
 		text-decoration: underline;
 	}
 
-	.degree {
+	.degree,
+	.zaritsky-film {
 		font-family: $oswald;
 		text-transform: uppercase;
 		color: lighten($blue, 25%);
 		@include font-size(1.95);
+	}
+
+	.zaritsky-film {
+		color: $blue;
+		@include font-size(1.85);
 	}
