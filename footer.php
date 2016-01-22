@@ -3,7 +3,7 @@
 			<div class="produced-by">
 				<div class="big-twin-production">
 					Big Twin Production's &copy; <?php echo date("Y") ?>
-					<span class="big-twin-logo"></span>
+					<a href="http://www.bigtwinproductions.com/" target="_blank"><span class="big-twin-logo"></span></a>
 				</div>
 
 				<div class="documentary">

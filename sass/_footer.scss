@@ -29,6 +29,9 @@
 		width: auto;
 		display: block;
 		margin: 2.5px auto 0;
+		&:hover {
+			fill: lighten(black, 50%);
+		}
 	}
 
 // Documentary logo - start
