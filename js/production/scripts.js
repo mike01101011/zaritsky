@@ -14,7 +14,7 @@ zaritskyApp.closeMenu = function() {
 	$('.exit-button').click(function() {
 		$('nav').removeClass('open');
 		$('body').css('overflow','visible');
-	});	
+	});
 };
 
 
@@ -52,6 +52,28 @@ zaritskyApp.exdent = function() {
 };
 
 
+// News Image Hover
+zaritskyApp.newsImage = function() {
+	$('.news-image').mouseenter(function() {
+		$('.read-more-button').addClass('read-more-button-hover');
+	});
+	$('.news-image').mouseout(function() {
+		$('.read-more-button').removeClass('read-more-button-hover');
+	});
+}
+
+
+// Read More Button Hover
+zaritskyApp.readMoreButton = function() {
+	$('.read-more-button').mouseenter(function() {
+		$('.news-photo').addClass('news-image-hover');
+	});
+	$('.read-more-button').mouseout(function() {
+		$('.news-photo').removeClass('news-image-hover');
+	});
+}
+
+
 // Load on Page Load
 zaritskyApp.init = function() {
 	zaritskyApp.showMenu();
@@ -59,6 +81,8 @@ zaritskyApp.init = function() {
 	zaritskyApp.fitVid();
 	zaritskyApp.flickity();
 	zaritskyApp.exdent();
+	zaritskyApp.newsImage();
+	zaritskyApp.readMoreButton();
 };
 
 

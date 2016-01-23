@@ -21,15 +21,27 @@
 
 .option-link {
 	margin: 25px;
+	&:hover {
+		.degree-option {
+			opacity: .75;
+		}
+		.slide-info {
+			.title-arrow {
+				fill: white;
+			}
+		}
+	}
 	.degree-option {
 		@include border-radius(50%);
 		max-width: 225px;
 		display: block;
 		margin: 0 auto;
+		transition: all 0.3s ease;
 	}
 	.slide-info {
 		text-align: center;
 		.title-arrow {
+			transition: all 0.3s ease;
 			width: 14px;
 			height: auto;
 			fill: $grey;

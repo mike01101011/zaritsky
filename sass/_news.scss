@@ -8,6 +8,10 @@
 
 .news-photo {
 	margin-right: 2.5%;
+	transition: all 0.3s ease;
+	&:hover {
+		opacity: .75;
+	}
 	@media #{$mobile} {
 		margin: 0 auto;
 	}
@@ -52,4 +56,13 @@
 		border-color: $hover;
 		color: $hover;
 	}
+}
+
+.read-more-button-hover {
+	border-color: $hover;
+	color: $hover;
+}
+
+.news-image-hover {
+	opacity: .75;
 }
