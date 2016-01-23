@@ -11,9 +11,16 @@
 		$oswald: 'Oswald', sans-serif;
 		$sourcepro: 'Source Sans Pro', sans-serif;
 
-		@font-family {
-			font-family: futura, 'Oswald', sans-serif;
-			src: url(.font/Impact.ttf);
+		@font-face {
+		    font-family: 'impactregular';
+		    src: url('font/impact-webfont.eot');
+		    src: url('font/impact-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('font/impact-webfont.woff2') format('woff2'),
+		         url('font/impact-webfont.woff') format('woff'),
+		         url('font/impact-webfont.ttf') format('truetype'),
+		         url('font/impact-webfont.svg#impactregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
 		}
 	// Fonts - end
 // Variables - end
