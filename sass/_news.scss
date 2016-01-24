@@ -13,7 +13,8 @@
 		opacity: .75;
 	}
 	@media #{$mobile} {
-		margin: 0 auto;
+		width: 100%;
+		text-align: center;
 	}
 	& > img {
 		max-width: 200px;
