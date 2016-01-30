@@ -64,6 +64,9 @@
 
 .slide-info {
     flex: 1 0;
+	q {
+		font-style: italic;
+	}
 	@media #{$mobile} {
 		margin-top: 10px;
 		h2,

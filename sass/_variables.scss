@@ -47,6 +47,14 @@
 	// Font Size - end
 
 
+	// Letter Spacing - start
+	@mixin letter-spacing($sizeValue) {
+	  letter-spacing: ($sizeValue * 10) + px;
+	  letter-spacing: $sizeValue + rem;
+	}
+	// Letter Spacing - end
+
+
 	// border-radius - start
 	@mixin border-radius($radius) {
 	  -webkit-border-radius: $radius;

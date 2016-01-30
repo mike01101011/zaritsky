@@ -33,6 +33,9 @@
 			fill: lighten(black, 50%);
 		}
 	}
+	a > .big-twin-logo::after {
+		content: "";
+	}
 
 // Documentary logo - start
 	.documentary {

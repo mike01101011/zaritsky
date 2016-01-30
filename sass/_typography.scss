@@ -96,6 +96,12 @@
 	.paragraph-link {
 		@include font-size(2);
 		text-decoration: underline;
+		em {
+			&::after {
+				display: inline-block;
+				content: "\00a0";
+			}
+		}
 	}
 
 	p.return-to-six-degrees {
@@ -126,4 +132,10 @@
 	.zaritsky-film {
 		color: $blue;
 		@include font-size(1.85);
+	}
+
+	.buffer-room {
+		&::after {
+			content: "\00a0";
+		}
 	}
