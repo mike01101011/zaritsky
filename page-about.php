@@ -23,7 +23,6 @@
 						<?php the_field( 'trailer' ); ?>
 					</div>
 				</div>
-			</section>
 		<?php endwhile; ?>
 		<?php wp_reset_postdata(); ?>
 		<?php else: ?>
@@ -33,9 +32,7 @@
 
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
-			<section class="about">
-				<div class="container">
-					<h2>The Film</h2>
+				<div class="about container">
 					<?php the_content(); ?>
 				</div>
 			</section>
