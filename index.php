@@ -24,7 +24,7 @@
 				<div class="container">
 					<div class="project-info">
 						<?php the_field( 'details' ); ?>
-						<a href="<?php the_field( 'broadcaster_url' ); ?>" class="coming-soon-button" targer="_blank"><?php the_field( 'button_text' ); ?> <span class="large-documentary-logo"></span></a>
+						<a href="<?php the_field( 'broadcaster_url' ); ?>" class="coming-soon-button" target="_blank"><?php the_field( 'button_text' ); ?> <span class="large-documentary-logo"></span></a>
 					</div>
 				</div>
 			</section>
