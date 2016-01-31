@@ -9,19 +9,46 @@
 		</div>
 	</div>
 
-	<section class="project-details overlay" id="below">
-		<div class="container">
-			<div class="project-info">
-				<p>John Zaritsky is an acclaimed Academy Award winning documentary filmmaker, the film subject of <a href="./about" class="paragraph-link"><em>Mr&nbsp;Zaritsky&nbsp;On&nbsp;TV</em></a>.</p>
-				<br>
-				<p>Explore the <a href="./degrees" class="paragraph-link">Six Degrees of Zaritsky</a>, and discover John's connection to the cultural moguls and personalities you know and love.</p>
-				<br>
-				<p> Or, check out John's <a href="./zaritskys-filmography" class="paragraph-link">Filmography</a>, and hear the stories behind the films that distinguish John as one of Canada's best journalistic documentary filmmakers!</p>
-			</div>
-			<a href="http://www.cbc.ca/documentarychannel/" class="coming-soon-button">Feature-Length Film Coming Soon To <span class="large-documentary-logo"></span>
-			</a>
-		</div>
-	</section>
+	<?php $detail = new WP_Query(
+			array(
+				'posts_per_page' => -1,
+				'post_type' => 'detail',
+				'order' => 'DSC'
+			)
+		);
+	?>
+
+	<?php if (have_posts()) : ?>
+		<?php while ($detail->have_posts()) : $detail->the_post(); ?>
+			<section class="project-details overlay" id="below">
+				<div class="container">
+					<div class="project-info">
+						<?php the_field( 'details' ); ?>
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
+		<?php else: ?>
+	<?php endif; ?>
+
+
+	<?php $doc_button = new WP_Query(
+			array(
+				'posts_per_page' => -1,
+				'post_type' => 'docbuttondetail',
+				'order' => 'DSC'
+			)
+		);
+	?>
+
+	<?php if (have_posts()) : ?>
+		<?php while ($doc_button->have_posts()) : $doc_button->the_post(); ?>
+						<a href="http://www.cbc.ca/documentarychannel/" class="coming-soon-button"><?php the_field( 'documentary_channel_button' ); ?> <span class="large-documentary-logo"></span></a>
+					</div>
+				</div>
+			</section>
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
+		<?php else: ?>
+	<?php endif; ?>
 </main> <!-- /.main -->
 
 <?php get_footer(); ?>

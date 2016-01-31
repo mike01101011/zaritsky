@@ -78,7 +78,7 @@
 		}
 	}
 
-	.project-details {		
+	.project-details {
 		.project-info {
 			color: white;
 			width: 80%;
@@ -92,7 +92,6 @@
 		text-align: center;
 		font-family: $oswald;
 		transition: all 0.3s;
-		width: 80%;
 		@include letter-spacing(.2);
 		@include font-size(2.8);
 		background: $link;
