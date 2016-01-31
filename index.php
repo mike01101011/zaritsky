@@ -24,24 +24,7 @@
 				<div class="container">
 					<div class="project-info">
 						<?php the_field( 'details' ); ?>
-		<?php endwhile; ?>
-		<?php wp_reset_postdata(); ?>
-		<?php else: ?>
-	<?php endif; ?>
-
-
-	<?php $doc_button = new WP_Query(
-			array(
-				'posts_per_page' => -1,
-				'post_type' => 'docbuttondetail',
-				'order' => 'DSC'
-			)
-		);
-	?>
-
-	<?php if (have_posts()) : ?>
-		<?php while ($doc_button->have_posts()) : $doc_button->the_post(); ?>
-						<a href="http://www.cbc.ca/documentarychannel/" class="coming-soon-button"><?php the_field( 'documentary_channel_button' ); ?> <span class="large-documentary-logo"></span></a>
+						<a href="<?php the_field( 'broadcaster_url' ); ?>" class="coming-soon-button" targer="_blank"><?php the_field( 'button_text' ); ?> <span class="large-documentary-logo"></span></a>
 					</div>
 				</div>
 			</section>
