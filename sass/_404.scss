@@ -1,0 +1,17 @@
+.error-message {
+	display: flex;
+	height: 89vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	h1 {
+		font-family: $oswald;
+		@include font-size(5);
+		text-transform: uppercase;
+	}
+	p {
+		@include font-size(2);
+		font-family: $sourcepro;
+		font-weight: 400;
+	}
+}

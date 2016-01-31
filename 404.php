@@ -2,13 +2,14 @@
 <?php include("navigation.php"); ?>
 
 	<main class="clearfix">
-		<div class="container">
+			<div class="container">
+				<div class="error-message">
+					<h1>Error 404</h1>
+					<p>Looks like you've stumbled on a page that does not exit.</p>
+					<p>You can head back <a href="../" class="paragraph-link">home</a>.</p>
+				</div>
+			</div> <!-- /.container -->
 
-			<div class="error-message">
-				<iframe src="//giphy.com/embed/pvluAwaBlPhpm?html5=true" width="480" height="478" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			</div> <!-- /.flexItem -->
-
-		</div> <!-- /.container -->
 	</main> <!-- /.main -->
 
 <?php get_footer(); ?>
