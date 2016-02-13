@@ -4,6 +4,8 @@
 	<?php // Load Meta ?>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Documentary,John Zaritsky,Zaritsky,Canada,Canadian,Filmmaker,Filmmaking,Academy Award,Academy Award winner,independent,indie,independent film,doc,Doc Channel,Documentary Channel,Canadian Media Fund,big twin productions,big twin">
+	<meta name="description" content="The official website for the documentary, 'Mr Zaritsky On TV'.">
 	<title><?php  wp_title('|', true, 'right'); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
@@ -13,18 +15,18 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" />
 
 	<!-- social media - start -->
-<!--   <meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@christiepitsff" />
-	<meta name="twitter:creator" content="@christiepitsff" />
-	<meta name="twitter:title" content="Christie Pits Film Festival" />
-	<meta name="twitter:description" content="Official website for the Toronto-based Film Festival." />
-	<meta name="twitter:image" content="http://christiepitsff.com/social/cpff-logo.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@bigtwinprod" />
+	<meta name="twitter:creator" content="@bigtwinprod" />
+	<meta name="twitter:title" content="Mr Zaritsky On TV" />
+	<meta name="twitter:description" content="The official website for the documentary, 'Mr Zaritsky On TV'." />
+	<meta name="twitter:image" content="<?php echo home_url(); ?>/social/zaritsky_crew.jpg" />
 
-	<meta property="og:title" content="Christie Pits Film Festival" />
+	<meta property="og:title" content="Mr Zaritsky On TV" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="http://christiepitsff.com/" />
-	<meta property="og:description" content="Official website for the Toronto-based Film Festival." />
-	<meta property="og:image" content="http://christiepitsff.com/social/cpff-logo.png" /> -->
+	<meta property="og:url" content="http://mrzaritskyonfilm.com/" />
+	<meta property="og:description" content="The official website for the documentary, 'Mr Zaritsky On TV'." />
+	<meta property="og:image" content="<?php echo home_url(); ?>/social/zaritsky_crew.jpg" />
 	<!-- social media - end -->
 
 	<?php wp_head(); ?>
@@ -36,7 +38,7 @@
 			<div class="container clearfix">
 
 				<div class="site-title">
-					<a href="http://nikin.net/zaritsky">Mr Zaritsky on TV</a>
+					<a href="<?php echo home_url(); ?>">Mr Zaritsky on TV</a>
 				</div> <!-- /.site-title -->
 
 				<div class="menu-buttons">
